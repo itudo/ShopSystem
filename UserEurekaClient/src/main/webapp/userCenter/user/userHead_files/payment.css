@@ -1,0 +1,264 @@
+/*账期 余额*/
+.pary-content-warp{
+    width: 100%;
+    background:#ffbb22;
+    padding-bottom:120px;
+}
+.pary-content-warp .banner{
+    position:relative;
+}
+.pary-content-warp .banner .banner-img{
+    width: 100%;
+}
+.pary-content-warp .banner a{
+    position:absolute;
+    left:50%;
+    top:55%;
+    width: 70px;
+    height: 70px;
+    margin-left:-20px;
+}
+.pary-content-warp .banner .what-warp{
+    width: 30%;
+    position:absolute;
+    left:50%;
+    bottom:20px;
+    margin-left:-15%;
+}
+.pary-content-warp .banner .what-warp img{
+    width: 100%;
+}
+.pary-content-warp .banner .what-warp .what-title-main{
+    position:absolute;
+    left:0;
+    top:0;
+}
+.pary-content-warp .banner .what-warp .what-title-main h1{
+    font-size:26px;
+    color:#ff9000;
+    font-weight:bold;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.pary-content-warp .banner .what-warp .what-title-main p{
+    padding:0 40px;
+    font-size:14px;
+    color:#634b15;
+}
+.pary-content-warp .banner .what-warp .what-title-main p span{
+    color:#ff9000;
+}
+.pary-content-warp .advantage-wrap{
+    min-width:1200px;
+    text-align:center;
+    padding-top:40px;
+    position:relative;
+}
+.pary-content-warp .advantage-wrap .position-img{
+    position:relative;
+    z-index:999;
+}
+.pary-content-warp .advantage-wrap .balloon-main{
+    position:absolute;
+    right:104px;
+    top:123px;
+}
+.pary-content-warp .application-wrap h1{
+    text-align:center;
+    padding:65px 0;
+}
+.pary-content-warp .application-wrap .form-wrap{
+}
+.pary-content-warp .application-wrap .form-wrap{
+    width: 960px;
+    height: 788px;
+    margin: 0 auto;
+    background:url(../img/ApplicationForm.png) no-repeat;
+    position:relative;
+    z-index:999;
+}
+.pary-content-warp .application-wrap .form-wrap .balloon-content{
+    width: 154px;
+    height: 181px;
+    background:url(../img/balloon-left.png) no-repeat;
+    position:absolute;
+    top:185px;
+    left:-91px;
+}
+.pary-content-warp .application-wrap .form-wrap h1{
+    font-size:36px;
+    color:#ff9000;
+    text-align:left;
+    text-indent:100px;
+    padding-bottom:35px;
+}
+.pary-content-warp .application-wrap .form-wrap ul{
+    padding-left:87px;
+}
+.pary-content-warp .application-wrap .form-wrap ul li{
+    margin-bottom:14px;
+}
+.pary-content-warp .application-wrap .form-wrap ul li label{
+    color:#b58e36;
+    font-size:14px;
+    margin-right:100px;
+}
+.pary-content-warp .application-wrap .form-wrap ul li.padding{
+    height:25px;
+}
+.pary-content-warp .application-wrap .form-wrap ul li.padding span{
+    line-height:25px;
+}
+.pary-content-warp .application-wrap .form-wrap ul li label input{
+    width: 14px;
+    height:14px;
+    margin-right:5px;
+}
+.pary-content-warp .application-wrap .form-wrap span{
+    width: 83px;
+    text-align:right;
+    padding-right:20px;
+    line-height:40px;
+    font-size:13px;
+    color:#b58e36;
+}
+.pary-content-warp .application-wrap .form-wrap input{
+    background:#fef9e0;
+    text-indent:5px;
+}
+
+.pary-content-warp .application-wrap .form-wrap input.border{
+    border:1px solid #b58e36;
+    height:38px;
+}
+.pary-content-warp .application-wrap .form-wrap select{
+    width: 153px;
+    height: 40px;
+    border:1px solid #b58e36;
+    background:#fef9e0;
+    color:#b58e36;
+    margin-right: 20px;
+}
+.pary-content-warp .application-wrap .form-wrap input.w430{
+    width: 430px;
+}
+.pary-content-warp .application-wrap .form-wrap input.w200{
+    width: 200px;
+}
+.pary-content-warp .application-wrap .form-wrap input.w600{
+    width: 200px;
+}
+.pary-content-warp .application-wrap .form-wrap input.margin-right{
+    margin-right:103px;
+}
+.pary-content-warp .application-wrap .form-wrap ul li.text textarea{
+    width: 600px;
+    height: 118px;
+    border:1px solid #b58e36;
+    resize:none;
+    background:#fef9e0;
+    text-indent:5px;
+    padding-top:5px;
+}
+.pary-content-warp .application-wrap .form-wrap p{
+    font-size:16px;
+    color:#956a0a;
+    text-indent:188px;
+}
+.pary-content-warp .application-wrap .form-wrap .submit-btn{
+    background:url(../img/button-bj.png) no-repeat;
+    width: 164px;
+    height: 54px;
+    border:none;
+    color:#fff;
+    font-size:24px;
+    font-weight:bold;
+    margin-left:185px;
+    margin-top:35px;
+}
+.pary-content-warp .process-wrap{
+    width: 960px;
+    height: 705px;
+    margin:100px auto 0 auto;
+    background:url(../img/ApplicationForm1.png) no-repeat;
+    position:relative;
+}
+.pary-content-warp .process-wrap .balloon{
+    width: 130px;
+    height: 181px;
+    position:absolute;
+    top:-38px;
+    right:-117px;
+    background:url(../img/balloon-right.png) no-repeat -41px 0;
+}
+.pary-content-warp .process-wrap .process-main h1{
+    font-size:36px;
+    color:#ff9000;
+    padding-top:80px;
+    padding-left:108px;
+    padding-bottom:24px;
+}
+.pary-content-warp .process-wrap .process-main ul{
+    padding-left:50px;
+}
+.pary-content-warp .process-wrap .process-main ul li .img-main{
+    height:126px;
+    position:relative;
+}
+.pary-content-warp .process-wrap .process-main ul li .img-main img{
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.pary-content-warp .process-wrap .process-main ul li{
+    width: 30%;
+    height: 180px;
+    text-align:center;
+}
+.pary-content-warp .process-wrap .process-main ul li a{
+    display:inline-block;
+    height:50px;
+    min-width:220px;
+    line-height:50px;
+    background:#ffbb22;
+    border-radius:100px;
+    font-size:16px;
+    color:#956a0a;
+    padding:0 10px;
+    text-align:center;
+    transition:.3s ease;
+}
+.pary-content-warp .process-wrap .process-main ul li a:hover{
+    color:#fff;
+    background:#f5e085;
+    transition:.3s ease;
+}
+.pary-content-warp .process-wrap .process-main ul li .btn-main{
+    text-align:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+.pary-content-warp .beCareful-main{
+    width: 810px;
+    height: 254px;
+    margin:0 auto;
+    background:url(../img/beCareful.png) no-repeat;
+    margin-top:55px;
+}
+.pary-content-warp .beCareful-main h2{
+    text-align:center;
+    font-size:36px;
+    color:#ff9000;
+    padding-top:30px;
+    padding-bottom:15px;
+}
+.pary-content-warp .beCareful-main li{
+    font-size:20px;
+    text-indent:100px;
+    line-height:40px;
+    color:#634b15;
+}

@@ -1,0 +1,1 @@
+var frameAd = {adList:[{ad:"手机随时随地查物流>",url:"https://www.kuaidi100.com/mobile/android.shtml?"}]};

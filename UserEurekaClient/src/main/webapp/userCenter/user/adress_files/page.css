@@ -1,0 +1,6 @@
+.page {clear: both; color: #555; padding: 20px 0; text-align:center;}
+.page a, .page span{border:1px solid #CCC; margin: 0 3px; text-decoration: none; line-height: 22px; padding: 3px 12px; text-align: center;}
+.page a:hover, .page span:hover{background-color: #146AC1; color: #FFFFFF; cursor:pointer; text-decoration: none; border:1px solid #146AC1;}
+.page span.current{background-color: #146AC1; color: #FFFFFF; cursor:pointer; text-decoration: none; border:1px solid #146AC1;}
+
+.display{display: none;}

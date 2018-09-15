@@ -1,0 +1,387 @@
+.addr-switch {
+    height: 18px;
+    line-height: 18px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #666;
+}
+.addr-switch b {
+    display: inline-block;
+    vertical-align: middle;
+    height: 10px;
+    line-height: 10px;
+    width: 9px;
+    margin-left: 5px;
+    background: url("/Public/Home/img/addr-i.png") no-repeat 0 0;
+}
+.addr-switch.switch-off b {
+    background: url("/Public/Home/img/addr-i.png") no-repeat 0 -10px;
+}
+.addr-switch.switch-on b {
+    background: url("/Public/Home/img/addr-i.png") no-repeat 0 0;
+}
+.detailed{
+    position: relative;
+}
+.bill_off:hover{
+    color: #333333;
+}
+.bill_off{
+    background-color: #EAEAEA;
+    color: #333333;
+}
+.bill_save:hover{
+    color: white;
+}
+.bill_save{
+    background-color: #D0101B;
+    color: white;
+}
+.bill_bottom a{
+    display: block;
+    width: 70px;
+    height: 32px;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.bill_bottom{
+    width: 400px;
+    height: 35px;
+    margin-left: 125px;
+    margin-top: 25px;
+}
+.bill_Text_content_wb{
+    width: 400px;
+    height: 100px;
+    border: 1px solid #D1D1D1;
+    display: block;
+    margin-left: 80px;
+    margin-top: 20px;
+    resize:none;
+    text-indent: 20px;
+    outline: none;
+    font-size: 12px;
+    color: #999999;
+    padding-top: 10px;
+}
+.bill_Text_content_top_right a.active{
+    background-image: url("/Public/Home/img/bill_Selected.png");
+}
+.bill_Text_content_top_right a{
+    display: block;
+    width: 98px;
+    height: 32px;
+    float: left;
+    text-decoration: none;
+    background-image: url("/Public/Home/img/No_bill.png");
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 15px;
+    color: #666666;
+}
+.bill_Text_content_top_right{
+    width: 340px;
+    height: 35px;
+    float: left;
+    font-size: 12px;
+}
+.bill_Text_content_top_left{
+    width: 80px;
+    height: 35px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    line-height: 35px;
+}
+.bill_Text_content_top{
+    width: 100%;
+    overflow: hidden;
+}
+.bill_Text_content{
+    width: 500px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.bill_Text_up_input{
+    width: 340px;
+    height: 32px;
+    display: block;
+    float: left;
+    border: 1px solid #D1D1D1;
+    outline: none;
+    text-indent: 15px;
+    font-size: 12px;
+}
+.bill_Text_up_left{
+    width: 80px;
+    height: 35px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    line-height: 35px;
+}
+.bill_Text_up{
+    width: 500px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.bill_Text_kind a.active{
+    background-image: url("/Public/Home/img/bill_Selected.png");
+}
+.bill_Text_kind a{
+    width: 98px;
+    height: 32px;
+    display: block;
+    background-image: url("/Public/Home/img/No_bill.png");
+    background-size: 100% 100%;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    line-height: 32px;
+    float: left;
+    margin-right: 15px;
+}
+.bill_Text_kind{
+    width: 500px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.bill_Text_genre a{
+    width: 98px;
+    height: 32px;
+    display: block;
+    background-image: url("/Public/Home/img/No_bill.png");
+    background-size: 100% 100%;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    line-height: 32px;
+    float: left;
+    margin-right: 15px;
+}
+.bill_Text_genre a.active{
+    background-image: url("/Public/Home/img/bill_Selected.png");
+}
+.bill_Text_genre{
+    width: 500px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.bill_Text{
+    width: 100%;
+    overflow: hidden;
+
+}
+.dialog_gb img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.dialog_gb{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}
+.bill_Title{
+    width: 100%;
+    height: 40px;
+    background-color: #F3F3F3;
+    font-size: 14px;
+    color: #555;
+    text-indent: 20px;
+    line-height: 40px;
+    position: relative;
+}
+.bill{
+    width: 630px;
+    height: 500px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -315px;
+    margin-top: -250px;
+    z-index: 299999999;
+    border: 5px solid #CECECE;
+    border-radius: 5px;
+    display: none;
+}
+.bill.active{
+    display: block;
+}
+.Invoice_background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333333;
+    filter:alpha(opacity=20);
+    -moz-opacity:0.2;
+    -khtml-opacity: 0.2;
+    opacity: 0.2;
+    z-index: 199999999;
+    display: none;
+}
+.Invoice_background.active{
+    display: block;
+}
+.Coupon{
+    width: 100%;
+    overflow: hidden;
+}
+.Coupon_Title{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    font-size: 14px;
+    color: #333333;
+}
+.Coupon_Click{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #eaeaea
+}
+.Selection_Selection{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    width: 203px;
+    height: 102px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background: url("/Public/Home/img/coupons.png");
+    position: relative;
+}
+.Selection_Selection.active{
+    background: url("/Public/Home/img/coupons_affirm.png");
+}
+.Selection_Selection_top{
+    width: 100%;
+    height: 50px;
+    line-height: 55px;
+    color: white;
+    text-indent: 25px;
+}
+.Amount{
+    font-size: 28px;
+}
+.Fullness{
+    font-size: 13px;
+}
+.Coupon_validity{
+    width: 100%;
+    height: 20px;
+    color: white;
+    line-height: 20px;
+    font-size: 13px;
+    text-indent: 25px;
+}
+.Coupon_Bottom{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #74d2d4;
+    text-align: center;
+}
+.Coupon_undo{
+    width: 50px;
+    height: 23px;
+    line-height: 23px;
+    background-color: #D4F1F2;
+    cursor: pointer;
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 5;
+    display: none;
+    text-align: center;
+}
+.Selection_Selection.active .Coupon_undo{
+    display: block;
+}
+.not_available{
+    width: 100%;
+    overflow: hidden;
+}
+.not_available_a{
+    margin-top: 15px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    width: 203px;
+    height: 102px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background: url("/Public/Home/img/not_available.png");
+}
+.not_available_a_top{
+    width: 100%;
+    height: 50px;
+    line-height: 55px;
+    color: white;
+    text-indent: 25px;
+}
+.not_available_validity{
+    color: #a49f9f;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    text-indent: 25px;
+}
+.not_available_Bottom{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #bebdbd;
+    text-align: center;
+}
+.Coupon_Summary{
+    width: 100%;
+    height: 45px;
+    background-color: #EAEAEA;
+    line-height: 45px;
+    text-indent: 20px;
+    color: #333333;
+    font-size: 13px;
+}
+.Coupon_Summary_erd{
+    color: red;
+}
+.integral{
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 35px;
+    border-top: 1px solid #EAEAEA;
+}
+.integral p{
+    width: 100%;
+    height: 45px;
+    background-color: #EAEAEA;
+    line-height: 45px;
+    text-indent: 20px;
+    color: #333333;
+    font-size: 13px;
+}
+.integral span{
+    color: red;
+}
+.cursor {cursor: pointer;}

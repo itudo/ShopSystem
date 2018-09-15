@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="开源电子商城，b2c商城，免费电子商城系统" />
+<meta name="description" content="ShopsN全网开源电子商城允许在保留底部版权标志情况下永久免费商业使用，无任何功能限制。" />
+<title>ShopsN五核全网开源电商系统演示</title>
+<link rel="stylesheet" href="http://demo.shopsn.net/Public/Home/css/base.css">
+<link rel="stylesheet" href="http://demo.shopsn.net/Public/Home/css/style.css">
+<script src="//lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://demo.shopsn.net/Public/Common/js/layer/layer.js"></script>
+</head>
+<body>
+
+<div class="top1">
+<div class="header-2016">
+<div class="w clearfix">
+
+<ul class="fl" id="areaList">
+</ul>
+
+<ul class="fr clearfix nav-right">
+<li class="fl clearfix">
+<span class="fl"><span style="color:red;">hxh</span>&nbsp;欢迎来到亿速网络！</span>
+<a href="/index.php/Home/public/logout.html" class="fl active">【退出】</a>
+</li>
+<li class="fl">
+|<a href="/index.php/Home/Order/index.html">我的订单</a>|
+</li>
+<li class="fl customerService">
+<a href="/index.php/Home/Order/index.html">个人中心<i></i></a>
+<div>
+<p><a href="/index.php/Home/UserData/user_data.html">我的信息</a></p>
+<p><a href="/index.php/Home/Order/order_myorder.html">我的订单</a></p>
+<p><a href="/index.php/Home/Assets/coupon.html">我的优惠券</a></p>
+<p><a href="/index.php/Home/Assets/myCollection.html">我的收藏</a></p>
+<p><a href="/index.php/Home/Assets/integral.html">我的积分</a></p>
+</div>
+</li>
+<li class="fl clearfix mobile">
+<span class="fl">|</span>
+<div class="mobile-phone fl">
+<b></b>
+<s></s>
+</div>
+<a href="javascript:;" class="fl">APP下载</a>
+</li>
+<li class="fl customerService">
+|<a href="javascript:;">客户服务<i></i></a>|
+<div>
+<p><a href="/index.php/Home/Service/return_repair.html">返修退换货</a></p>
+<p><a href="/index.php/Home/Service/after_sale.html">售后管理</a></p>
+<p><a href="/index.php/Home/Service/advisoryReply.html">咨询回复</a></p>
+<p><a href="/index.php/Home/Service/opinion.html">意见建议</a></p>
+<p><a href="/index.php/Home/Service/repair_choice.html">上门维修服务</a></p>
+<p><a href="/index.php/Home/Service/announcement.html">网站公告</a></p>
+<p><a href="/index.php/Home/Service/report_center.html">投诉中心</a></p>
+</div>
+</li>
+<li class="fl customerService">
+<a href="javascript:;">网站导航<i></i></a>
+<div>
+<p><a href="/index.php/Home/UserData/user_data.html">我的信息</a></p>
+<p><a href="/index.php/Home/Order/order_myorder.html">我的订单</a></p>
+<p><a href="/index.php/Home/Assets/coupon.html">我的优惠券</a></p>
+<p><a href="/index.php/Home/Assets/myCollection.html">我的收藏</a></p>
+<p><a href="/index.php/Home/Assets/integral.html">我的积分</a></p>
+</div>
+</li>
+<li class="fl telephone"><em></em>400-800-900</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="home-section">
+
+
+<div class="header-advertisement-one">
+<div class="advertisement">
+<a data="" gg="" onclick="addAd(this)" target=_blank>
+<img src="http://demo.shopsn.net/Uploads/ad/2018/06-27/5b3329baa405f.jpg" width="100%" height="100"> </a>
+<input type="button" class="advertisement_delete" id="advertisement_delete" />
+</div> <span class="home-delete-one">x</span>
+</div>
+<div class="header-advertisement">
+<span class="home-delete"></span>
+</div> 
+<div class="home-header">
+<div class="home-header-main clearfix">
+
+<a href="/index.php/Home/Index/index.html" class="logo fl">
+<img style="max-width: 200px;" src="/Uploads/intnet/2018-06-29/5b35ac047dc6f.jpg" alt="" />
+<h2>ShopsN五核全网开源电商系统演示</h2>
+</a>
+
+<div class="home-search-parent fl">
+<div class="home-search clearfix">
+<form id="formsarch" action="/index.php/Home/Product/ProductList.html" method="get">
+<input type="text" class="fl input" name="keyword" id="pp" />
+<input type="hidden" name="show" value="show" />
+<input type="hidden" name="id" class="fl input" id="ser-id" value="" />
+<input type="submit" class="fl btn" id="search" value="搜&nbsp;索" />
+<div class="gg"></div>
+</form>
+</div>
+<dl class="home-hotsearch clearfix">
+<dt class="fl">热门搜索：</dt>
+<dd class="fl"><a href="/index.php/Home/Product/ProductList/id/31.html">冰箱</a></dd><dd class="fl"><a href="/index.php/Home/Product/ProductList/id/30.html">单反</a></dd><dd class="fl"><a href="/index.php/Home/Product/ProductList/id/29.html">电饭煲</a></dd><dd class="fl"><a href="/index.php/Home/Product/ProductList/id/28.html">空调</a></dd><dd class="fl"><a href="/index.php/Home/Product/ProductList/id/27.html">手机</a></dd><dd class="fl"><a href="/index.php/Home/Product/ProductList/id/26.html">笔记本</a></dd><dd class="fl"><a href="/index.php/Home/Product/ProductList/id/25.html">电视机</a></dd> </dl>
+</div>
+
+<div class="home-shopping fl">
+<div class="home-shopping-top clearfix">
+<em class="fl"></em>
+<span class="fl"><a href="/index.php/Home/Cart/goods.html">我的购物车</a></span>
+<i class="fl"></i>
+</div>
+<div class="home-individual clearfix">
+<span class="fl"></span>
+<em class="fl" id="couts">5 </em>
+<i></i>
+</div>
+<dl class="home-shopping-up" id="new_cart_data">
+<dd class="clearfix active">
+<a href="javscript:;" class="fl">
+<img src="/Uploads/goods/2018-06-26/thumb_5b31f64a1f8d7.jpg" alt="">
+</a>
+<a href="/index.php/Home/Goods/goodsDetails/id/3405/goods_num/2.html" class="fl con">
+步步高(BBK)家教机kids 绿色 </a>
+<strong class="fl">
+<span>￥0.01</span>x2<br>
+<a href="javascript:;" class="dels" data="1161">删除</a>
+</strong>
+</dd>  <dd class="clearfix active">
+<a href="javscript:;" class="fl">
+<img src="/Uploads/goods/2018-06-27/thumb_5b32fe26c3a28.jpg" alt="">
+</a>
+<a href="/index.php/Home/Goods/goodsDetails/id/3371/goods_num/1.html" class="fl con">
+荣耀 畅玩6X 畅玩6X 黑色 </a>
+<strong class="fl">
+<span>￥0.01</span>x1<br>
+<a href="javascript:;" class="dels" data="1162">删除</a>
+</strong>
+</dd> <dd class="clearfix active">
+<a href="javscript:;" class="fl">
+<img src="/Uploads/goods/2018-08-10/thumb_5b6d41e3af33f.jpg" alt="">
+</a>
+<a href="/index.php/Home/Goods/goodsDetails/id/3627/goods_num/1.html" class="fl con">
+戒指111 黄色 五联/三等分 80*50mm/筒/4卷 32GB </a>
+<strong class="fl">
+<span>￥199.00</span>x1<br>
+<a href="javascript:;" class="dels" data="1163">删除</a>
+</strong>
+</dd> <dd class="clearfix active">
+<a href="javscript:;" class="fl">
+<img src="/Uploads/goods/2018-06-27/thumb_5b32fc3c8baf6.jpg" alt="">
+</a>
+<a href="/index.php/Home/Goods/goodsDetails/id/3357/goods_num/1.html" class="fl con">
+海尔（Haier) EG8012B39SU1 8公斤变频滚筒洗衣机110 EG8012B39SU1 8公斤变频滚筒洗衣机 台 </a>
+<strong class="fl">
+<span>￥0.01</span>x1<br>
+<a href="javascript:;" class="dels" data="1164">删除</a>
+</strong>
+</dd> <dd class="clearfix active">
+<a href="javscript:;" class="fl">
+<img src="/Uploads/goods/2018-06-26/thumb_5b31ebfde14fb.jpg" alt="">
+</a>
+<a href="/index.php/Home/Goods/goodsDetails/id/3601/goods_num/3.html" class="fl con">
+海信平板电视 台 </a>
+<strong class="fl">
+<span>￥100.00</span>x3<br>
+<a href="javascript:;" class="dels" data="1165">删除</a>
+</strong>
+</dd> </dl>
+</div>
+
+<div class="fr home-code"></div>
+</div>
+</div>
+
+<div class="homeNavBar">
+<div class="w clearfix" style="z-index:2;">
+<dl class="fl level homeNavBar-index">
+<dt class="clearfix">
+<i class="fl"></i>
+<span class="fl">全部商品分类</span>
+<em class="fl"></em>
+</dt>
+<dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack1"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/1.html">家用电器</a></span>
+<em class="fr"></em> 
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/5.html">电视&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/64.html" class="fl">
+超薄电视 </a><a href="/index.php/Home/Product/ProductList/cid/65.html" class="fl">
+HDR电视 </a><a href="/index.php/Home/Product/ProductList/cid/82.html" class="fl">
+OLED电视 </a><a href="/index.php/Home/Product/ProductList/cid/83.html" class="fl">
+4K超清电视 </a><a href="/index.php/Home/Product/ProductList/cid/84.html" class="fl">
+55英寸 </a><a href="/index.php/Home/Product/ProductList/cid/85.html" class="fl">
+65英寸 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/70.html">空调&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/86.html" class="fl">
+壁挂式空调 </a><a href="/index.php/Home/Product/ProductList/cid/87.html" class="fl">
+柜式空调 </a><a href="/index.php/Home/Product/ProductList/cid/88.html" class="fl">
+中央空调 </a><a href="/index.php/Home/Product/ProductList/cid/89.html" class="fl">
+空调配件 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/90.html">洗衣机&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/91.html" class="fl">
+滚筒洗衣机 </a><a href="/index.php/Home/Product/ProductList/cid/92.html" class="fl">
+洗烘一体机 </a><a href="/index.php/Home/Product/ProductList/cid/700.html" class="fl">
+波轮洗衣机 </a><a href="/index.php/Home/Product/ProductList/cid/724.html" class="fl">
+洗衣机配件 </a><a href="/index.php/Home/Product/ProductList/cid/723.html" class="fl">
+迷你洗衣机 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/93.html">冰箱&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/94.html" class="fl">
+多门 </a><a href="/index.php/Home/Product/ProductList/cid/725.html" class="fl">
+对开门 </a><a href="/index.php/Home/Product/ProductList/cid/726.html" class="fl">
+三门 </a><a href="/index.php/Home/Product/ProductList/cid/727.html" class="fl">
+双门 </a><a href="/index.php/Home/Product/ProductList/cid/728.html" class="fl">
+冷柜/冰吧 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/95.html">厨卫大电&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/96.html" class="fl">
+油烟机 </a><a href="/index.php/Home/Product/ProductList/cid/97.html" class="fl">
+燃气灶 </a><a href="/index.php/Home/Product/ProductList/cid/98.html" class="fl">
+烟灶套装 </a><a href="/index.php/Home/Product/ProductList/cid/99.html" class="fl">
+消毒柜 </a><a href="/index.php/Home/Product/ProductList/cid/100.html" class="fl">
+洗碗机 </a><a href="/index.php/Home/Product/ProductList/cid/101.html" class="fl">
+电热水器 </a><a href="/index.php/Home/Product/ProductList/cid/102.html" class="fl">
+燃气热水器  </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/103.html">厨房小电&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/104.html" class="fl">
+电饭煲 </a><a href="/index.php/Home/Product/ProductList/cid/105.html" class="fl">
+微波炉 </a><a href="/index.php/Home/Product/ProductList/cid/106.html" class="fl">
+电烤箱 </a><a href="/index.php/Home/Product/ProductList/cid/729.html" class="fl">
+电磁炉 </a><a href="/index.php/Home/Product/ProductList/cid/730.html" class="fl">
+电压力锅 </a><a href="/index.php/Home/Product/ProductList/cid/731.html" class="fl">
+豆浆机 </a><a href="/index.php/Home/Product/ProductList/cid/732.html" class="fl">
+面包机 </a><a href="/index.php/Home/Product/ProductList/cid/733.html" class="fl">
+榨汁机 </a><a href="/index.php/Home/Product/ProductList/cid/734.html" class="fl">
+料理机 </a><a href="/index.php/Home/Product/ProductList/cid/735.html" class="fl">
+酸奶机 </a><a href="/index.php/Home/Product/ProductList/cid/736.html" class="fl">
+煮蛋器 </a><a href="/index.php/Home/Product/ProductList/cid/737.html" class="fl">
+面条机 </a><a href="/index.php/Home/Product/ProductList/cid/738.html" class="fl">
+电水壶/热水瓶 </a><a href="/index.php/Home/Product/ProductList/cid/739.html" class="fl">
+电炖锅 </a><a href="/index.php/Home/Product/ProductList/cid/740.html" class="fl">
+多用途锅 </a><a href="/index.php/Home/Product/ProductList/cid/741.html" class="fl">
+其它厨房电器 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+ <a href="/index.php/Home/Product/ProductList/cid/107.html">生活电器&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/108.html" class="fl">
+电风扇 </a><a href="/index.php/Home/Product/ProductList/cid/110.html" class="fl">
+冷风扇 </a><a href="/index.php/Home/Product/ProductList/cid/666.html" class="fl">
+吸尘器/除螨仪 </a><a href="/index.php/Home/Product/ProductList/cid/742.html" class="fl">
+净化器 </a><a href="/index.php/Home/Product/ProductList/cid/743.html" class="fl">
+扫地机器人 </a><a href="/index.php/Home/Product/ProductList/cid/745.html" class="fl">
+挂烫机/熨斗 </a><a href="/index.php/Home/Product/ProductList/cid/746.html" class="fl">
+取暖电器 </a><a href="/index.php/Home/Product/ProductList/cid/747.html" class="fl">
+插座 </a><a href="/index.php/Home/Product/ProductList/cid/749.html" class="fl">
+饮水机 </a><a href="/index.php/Home/Product/ProductList/cid/750.html" class="fl">
+净水器 </a><a href="/index.php/Home/Product/ProductList/cid/751.html" class="fl">
+除湿机 </a><a href="/index.php/Home/Product/ProductList/cid/752.html" class="fl">
+干衣机 </a><a href="/index.php/Home/Product/ProductList/cid/753.html" class="fl">
+清洁机 </a><a href="/index.php/Home/Product/ProductList/cid/754.html" class="fl">
+生活电器配件 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/111.html">个护健康&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/665.html" class="fl">
+剃须刀 </a><a href="/index.php/Home/Product/ProductList/cid/755.html" class="fl">
+口腔护理 </a><a href="/index.php/Home/Product/ProductList/cid/756.html" class="fl">
+美容器 </a><a href="/index.php/Home/Product/ProductList/cid/757.html" class="fl">
+洁面仪 </a><a href="/index.php/Home/Product/ProductList/cid/758.html" class="fl">
+卷/直发器 </a><a href="/index.php/Home/Product/ProductList/cid/759.html" class="fl">
+理发器 </a><a href="/index.php/Home/Product/ProductList/cid/760.html" class="fl">
+剃/脱毛器 </a><a href="/index.php/Home/Product/ProductList/cid/761.html" class="fl">
+足浴盆 </a><a href="/index.php/Home/Product/ProductList/cid/762.html" class="fl">
+健康秤/厨房秤 </a><a href="/index.php/Home/Product/ProductList/cid/763.html" class="fl">
+按摩器 </a><a href="/index.php/Home/Product/ProductList/cid/764.html" class="fl">
+按摩椅 </a><a href="/index.php/Home/Product/ProductList/cid/765.html" class="fl">
+其它健康电器 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack5"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/9.html">手机数码</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/72.html">手机通讯&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/116.html" class="fl">
+手机 </a><a href="/index.php/Home/Product/ProductList/cid/117.html" class="fl">
+对讲机 </a><a href="/index.php/Home/Product/ProductList/cid/118.html" class="fl">
+手机维修 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/132.html">手机配件&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/133.html" class="fl">
+手机壳 </a><a href="/index.php/Home/Product/ProductList/cid/134.html" class="fl">
+手机存储卡 </a><a href="/index.php/Home/Product/ProductList/cid/135.html" class="fl">
+数据线 </a><a href="/index.php/Home/Product/ProductList/cid/136.html" class="fl">
+手机耳机 </a><a href="/index.php/Home/Product/ProductList/cid/138.html" class="fl">
+手机饰品 </a><a href="/index.php/Home/Product/ProductList/cid/140.html" class="fl">
+充电器 </a><a href="/index.php/Home/Product/ProductList/cid/143.html" class="fl">
+手机电池 </a><a href="/index.php/Home/Product/ProductList/cid/144.html" class="fl">
+苹果周边 </a><a href="/index.php/Home/Product/ProductList/cid/146.html" class="fl">
+移动电源 </a><a href="/index.php/Home/Product/ProductList/cid/148.html" class="fl">
+蓝牙耳机 </a><a href="/index.php/Home/Product/ProductList/cid/150.html" class="fl">
+手机支架 </a><a href="/index.php/Home/Product/ProductList/cid/152.html" class="fl">
+车载配件 </a><a href="/index.php/Home/Product/ProductList/cid/154.html" class="fl">
+拍照配件 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/187.html">摄影摄像&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/188.html" class="fl">
+数码相机 </a><a href="/index.php/Home/Product/ProductList/cid/190.html" class="fl">
+单电/微单相机 </a><a href="/index.php/Home/Product/ProductList/cid/191.html" class="fl">
+单反相机  </a><a href="/index.php/Home/Product/ProductList/cid/193.html" class="fl">
+拍立得 </a><a href="/index.php/Home/Product/ProductList/cid/195.html" class="fl">
+运动相机 </a><a href="/index.php/Home/Product/ProductList/cid/197.html" class="fl">
+摄像机 </a><a href="/index.php/Home/Product/ProductList/cid/198.html" class="fl">
+镜头 </a><a href="/index.php/Home/Product/ProductList/cid/200.html" class="fl">
+户外器材 </a><a href="/index.php/Home/Product/ProductList/cid/213.html" class="fl">
+数码相框 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/258.html">数码配件&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/259.html" class="fl">
+存储卡 </a><a href="/index.php/Home/Product/ProductList/cid/261.html" class="fl">
+三脚架/云台 </a><a href="/index.php/Home/Product/ProductList/cid/263.html" class="fl">
+相机包 </a><a href="/index.php/Home/Product/ProductList/cid/265.html" class="fl">
+滤镜 </a><a href="/index.php/Home/Product/ProductList/cid/267.html" class="fl">
+闪光灯/手柄 </a><a href="/index.php/Home/Product/ProductList/cid/269.html" class="fl">
+相机清洁/贴膜 </a><a href="/index.php/Home/Product/ProductList/cid/271.html" class="fl">
+机身附件 </a><a href="/index.php/Home/Product/ProductList/cid/274.html" class="fl">
+镜头附件 </a><a href="/index.php/Home/Product/ProductList/cid/277.html" class="fl">
+读卡器 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/279.html">影音娱乐&nbsp;<b>></b></a>
+</dt>
+ <dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/285.html" class="fl">
+耳机/耳麦 </a><a href="/index.php/Home/Product/ProductList/cid/287.html" class="fl">
+便携/无线音箱 </a><a href="/index.php/Home/Product/ProductList/cid/289.html" class="fl">
+音箱/音响 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/291.html">电子教育&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/293.html" class="fl">
+学生平板 </a><a href="/index.php/Home/Product/ProductList/cid/296.html" class="fl">
+点读机/笔 </a><a href="/index.php/Home/Product/ProductList/cid/297.html" class="fl">
+早教益智 </a><a href="/index.php/Home/Product/ProductList/cid/300.html" class="fl">
+录音笔 </a><a href="/index.php/Home/Product/ProductList/cid/302.html" class="fl">
+电纸书 </a><a href="/index.php/Home/Product/ProductList/cid/304.html" class="fl">
+电子词典 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack6"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/29.html">电脑办公</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/352.html">电脑整机&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/354.html" class="fl">
+笔记本 </a><a href="/index.php/Home/Product/ProductList/cid/356.html" class="fl">
+台式机 </a> </dd>
+</dl><dl class="classification2 clearfix">
+ <dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/357.html">电脑配件&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/358.html" class="fl">
+显示器 </a><a href="/index.php/Home/Product/ProductList/cid/360.html" class="fl">
+CPU </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/362.html">外设产品&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/364.html" class="fl">
+鼠标 </a><a href="/index.php/Home/Product/ProductList/cid/366.html" class="fl">
+键盘 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/368.html">游戏设备&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/370.html" class="fl">
+游戏机 </a><a href="/index.php/Home/Product/ProductList/cid/372.html" class="fl">
+游戏耳机 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/373.html">网络产品&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/375.html" class="fl">
+路由器 </a><a href="/index.php/Home/Product/ProductList/cid/377.html" class="fl">
+网络机顶盒 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/379.html">办公设备&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/381.html" class="fl">
+投影机 </a><a href="/index.php/Home/Product/ProductList/cid/383.html" class="fl">
+打印机 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/580.html">文具耗材&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/581.html" class="fl">
+硒鼓/墨粉 </a><a href="/index.php/Home/Product/ProductList/cid/582.html" class="fl">
+墨盒 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack3"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/3.html">家居厨具</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/80.html">厨具&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/398.html" class="fl">
+刀剪菜板 </a><a href="/index.php/Home/Product/ProductList/cid/400.html" class="fl">
+厨房配件 </a><a href="/index.php/Home/Product/ProductList/cid/404.html" class="fl">
+烹饪锅具 </a><a href="/index.php/Home/Product/ProductList/cid/408.html" class="fl">
+水具酒具 </a><a href="/index.php/Home/Product/ProductList/cid/412.html" class="fl">
+餐具 </a><a href="/index.php/Home/Product/ProductList/cid/416.html" class="fl">
+茶具/咖啡具 </a><a href="/index.php/Home/Product/ProductList/cid/417.html" class="fl">
+保温杯 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/418.html">家纺&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/419.html" class="fl">
+床品套件 </a><a href="/index.php/Home/Product/ProductList/cid/420.html" class="fl">
+被子 </a><a href="/index.php/Home/Product/ProductList/cid/423.html" class="fl">
+枕芯 </a><a href="/index.php/Home/Product/ProductList/cid/766.html" class="fl">
+蚊帐 </a><a href="/index.php/Home/Product/ProductList/cid/767.html" class="fl">
+凉席 </a><a href="/index.php/Home/Product/ProductList/cid/768.html" class="fl">
+毛巾浴巾 </a><a href="/index.php/Home/Product/ProductList/cid/769.html" class="fl">
+地毯地垫 </a><a href="/index.php/Home/Product/ProductList/cid/770.html" class="fl">
+床垫/床褥 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/424.html">生活日用&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/427.html" class="fl">
+收纳用品 </a><a href="/index.php/Home/Product/ProductList/cid/429.html" class="fl">
+雨伞雨具 </a><a href="/index.php/Home/Product/ProductList/cid/431.html" class="fl">
+净化除味 </a><a href="/index.php/Home/Product/ProductList/cid/435.html" class="fl">
+浴室用品 </a><a href="/index.php/Home/Product/ProductList/cid/436.html" class="fl">
+洗晒/熨烫 </a><a href="/index.php/Home/Product/ProductList/cid/438.html" class="fl">
+缝纫/针织用品 </a><a href="/index.php/Home/Product/ProductList/cid/771.html" class="fl">
+清洁工具 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/440.html">家装软饰&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/442.html" class="fl">
+装饰字画 </a><a href="/index.php/Home/Product/ProductList/cid/444.html" class="fl">
+装饰摆件 </a><a href="/index.php/Home/Product/ProductList/cid/446.html" class="fl">
+手工/十字绣 </a><a href="/index.php/Home/Product/ProductList/cid/449.html" class="fl">
+相框/照片墙 </a><a href="/index.php/Home/Product/ProductList/cid/772.html" class="fl">
+墙贴/装饰贴 </a><a href="/index.php/Home/Product/ProductList/cid/773.html" class="fl">
+花瓶花艺 </a><a href="/index.php/Home/Product/ProductList/cid/774.html" class="fl">
+香薰蜡烛 </a><a href="/index.php/Home/Product/ProductList/cid/775.html" class="fl">
+节庆饰品 </a><a href="/index.php/Home/Product/ProductList/cid/776.html" class="fl">
+钟饰 </a><a href="/index.php/Home/Product/ProductList/cid/777.html" class="fl">
+帘艺隔断 </a><a href="/index.php/Home/Product/ProductList/cid/778.html" class="fl">
+创意家居 </a><a href="/index.php/Home/Product/ProductList/cid/779.html" class="fl">
+保暖防护 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/452.html">灯具&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/454.html" class="fl">
+吸顶灯 </a><a href="/index.php/Home/Product/ProductList/cid/456.html" class="fl">
+吊灯 </a><a href="/index.php/Home/Product/ProductList/cid/457.html" class="fl">
+台灯 </a><a href="/index.php/Home/Product/ProductList/cid/458.html" class="fl">
+筒灯射灯  </a><a href="/index.php/Home/Product/ProductList/cid/461.html" class="fl">
+装饰灯 </a><a href="/index.php/Home/Product/ProductList/cid/464.html" class="fl">
+LED灯 </a><a href="/index.php/Home/Product/ProductList/cid/780.html" class="fl">
+氛围照明 </a><a href="/index.php/Home/Product/ProductList/cid/781.html" class="fl">
+落地灯 </a><a href="/index.php/Home/Product/ProductList/cid/782.html" class="fl">
+庭院灯 </a><a href="/index.php/Home/Product/ProductList/cid/783.html" class="fl">
+应急灯/手电 </a><a href="/index.php/Home/Product/ProductList/cid/784.html" class="fl">
+节能灯 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/465.html">家具&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/468.html" class="fl">
+卧室家具 </a><a href="/index.php/Home/Product/ProductList/cid/470.html" class="fl">
+客厅家具 </a><a href="/index.php/Home/Product/ProductList/cid/473.html" class="fl">
+餐厅家具 </a><a href="/index.php/Home/Product/ProductList/cid/475.html" class="fl">
+书房家具 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/477.html">家装主材&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/479.html" class="fl">
+瓷砖 </a><a href="/index.php/Home/Product/ProductList/cid/480.html" class="fl">
+地板 </a><a href="/index.php/Home/Product/ProductList/cid/481.html" class="fl">
+油漆涂料 </a><a href="/index.php/Home/Product/ProductList/cid/482.html" class="fl">
+ 壁纸 </a><a href="/index.php/Home/Product/ProductList/cid/483.html" class="fl">
+涂刷辅料 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/485.html">厨房卫浴&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/486.html" class="fl">
+水槽 </a><a href="/index.php/Home/Product/ProductList/cid/487.html" class="fl">
+龙头 </a><a href="/index.php/Home/Product/ProductList/cid/488.html" class="fl">
+淋浴花洒 </a><a href="/index.php/Home/Product/ProductList/cid/489.html" class="fl">
+马桶 </a><a href="/index.php/Home/Product/ProductList/cid/490.html" class="fl">
+智能马桶盖 </a><a href="/index.php/Home/Product/ProductList/cid/667.html" class="fl">
+厨卫挂件 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack8"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/697.html">女装男装</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/699.html">女装&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/786.html" class="fl">
+商场同款 </a><a href="/index.php/Home/Product/ProductList/cid/787.html" class="fl">
+当季热卖 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/785.html">男装&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/788.html" class="fl">
+ T恤 </a><a href="/index.php/Home/Product/ProductList/cid/789.html" class="fl">
+牛仔裤 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack4"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/4.html">美妆个护</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/505.html">面部护肤&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/507.html" class="fl">
+补水保湿 </a><a href="/index.php/Home/Product/ProductList/cid/509.html" class="fl">
+卸妆 </a><a href="/index.php/Home/Product/ProductList/cid/511.html" class="fl">
+洁面 </a><a href="/index.php/Home/Product/ProductList/cid/513.html" class="fl">
+爽肤水 </a><a href="/index.php/Home/Product/ProductList/cid/515.html" class="fl">
+乳液面霜 </a><a href="/index.php/Home/Product/ProductList/cid/517.html" class="fl">
+精华 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/520.html">洗发护发&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/522.html" class="fl">
+洗发 </a><a href="/index.php/Home/Product/ProductList/cid/523.html" class="fl">
+护发 </a><a href="/index.php/Home/Product/ProductList/cid/525.html" class="fl">
+染发 </a><a href="/index.php/Home/Product/ProductList/cid/526.html" class="fl">
+造型 </a><a href="/index.php/Home/Product/ProductList/cid/527.html" class="fl">
+假发 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/536.html">身体护理&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/538.html" class="fl">
+补水保湿 </a><a href="/index.php/Home/Product/ProductList/cid/540.html" class="fl">
+沐浴 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/542.html">口腔护理&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/547.html" class="fl">
+牙膏/牙粉 </a><a href="/index.php/Home/Product/ProductList/cid/549.html" class="fl">
+牙刷/牙线 </a><a href="/index.php/Home/Product/ProductList/cid/551.html" class="fl">
+漱口水 </a><a href="/index.php/Home/Product/ProductList/cid/552.html" class="fl">
+套装 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/554.html">女性护理&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/556.html" class="fl">
+卫生巾 </a><a href="/index.php/Home/Product/ProductList/cid/557.html" class="fl">
+卫生护垫 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/560.html">香水彩妆&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/562.html" class="fl">
+BB霜 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+ <div class="clearfix">
+<i class="fl menuItemBack8"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/14.html">女鞋箱包</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/79.html">时尚女鞋&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/493.html" class="fl">
+2017新品 </a><a href="/index.php/Home/Product/ProductList/cid/494.html" class="fl">
+单鞋 </a><a href="/index.php/Home/Product/ProductList/cid/495.html" class="fl">
+休闲鞋 </a><a href="/index.php/Home/Product/ProductList/cid/496.html" class="fl">
+帆布鞋 </a><a href="/index.php/Home/Product/ProductList/cid/497.html" class="fl">
+妈妈鞋 </a><a href="/index.php/Home/Product/ProductList/cid/498.html" class="fl">
+布鞋/绣花鞋 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/514.html">潮流女包&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/516.html" class="fl">
+真皮包 </a><a href="/index.php/Home/Product/ProductList/cid/519.html" class="fl">
+水桶包 </a><a href="/index.php/Home/Product/ProductList/cid/521.html" class="fl">
+单肩包 </a><a href="/index.php/Home/Product/ProductList/cid/524.html" class="fl">
+手提包 </a><a href="/index.php/Home/Product/ProductList/cid/528.html" class="fl">
+斜挎包 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/530.html">精品男包&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+ <a href="/index.php/Home/Product/ProductList/cid/644.html" class="fl">
+男士钱包 </a><a href="/index.php/Home/Product/ProductList/cid/645.html" class="fl">
+双肩包 </a><a href="/index.php/Home/Product/ProductList/cid/646.html" class="fl">
+单肩/斜挎包 </a><a href="/index.php/Home/Product/ProductList/cid/647.html" class="fl">
+商务公文包 </a><a href="/index.php/Home/Product/ProductList/cid/648.html" class="fl">
+男士手包 </a><a href="/index.php/Home/Product/ProductList/cid/649.html" class="fl">
+卡包名片夹 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/544.html">功能箱包&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/548.html" class="fl">
+拉杆箱 </a><a href="/index.php/Home/Product/ProductList/cid/563.html" class="fl">
+拉杆包 </a><a href="/index.php/Home/Product/ProductList/cid/564.html" class="fl">
+旅行包 </a><a href="/index.php/Home/Product/ProductList/cid/565.html" class="fl">
+电脑包 </a><a href="/index.php/Home/Product/ProductList/cid/566.html" class="fl">
+休闲运动包 </a><a href="/index.php/Home/Product/ProductList/cid/567.html" class="fl">
+书包 </a><a href="/index.php/Home/Product/ProductList/cid/568.html" class="fl">
+登山包 </a><a href="/index.php/Home/Product/ProductList/cid/637.html" class="fl">
+妈咪包 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/651.html">奢侈品&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/652.html" class="fl">
+ 箱包 </a><a href="/index.php/Home/Product/ProductList/cid/653.html" class="fl">
+钱包 </a><a href="/index.php/Home/Product/ProductList/cid/657.html" class="fl">
+服饰 </a><a href="/index.php/Home/Product/ProductList/cid/658.html" class="fl">
+太阳镜/眼镜框 </a><a href="/index.php/Home/Product/ProductList/cid/659.html" class="fl">
+饰品 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack7"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/31.html">汽车用品</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/569.html">汽车装饰&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/570.html" class="fl">
+座垫 </a><a href="/index.php/Home/Product/ProductList/cid/571.html" class="fl">
+脚垫 </a><a href="/index.php/Home/Product/ProductList/cid/573.html" class="fl">
+座套 </a><a href="/index.php/Home/Product/ProductList/cid/574.html" class="fl">
+头枕腰靠 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/599.html">维修保养&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/600.html" class="fl">
+机油 </a><a href="/index.php/Home/Product/ProductList/cid/626.html" class="fl">
+轮胎 </a><a href="/index.php/Home/Product/ProductList/cid/627.html" class="fl">
+添加剂 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+ <a href="/index.php/Home/Product/ProductList/cid/603.html">车载电器&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/606.html" class="fl">
+行车记录仪 </a><a href="/index.php/Home/Product/ProductList/cid/628.html" class="fl">
+电源 </a><a href="/index.php/Home/Product/ProductList/cid/629.html" class="fl">
+智能车机 </a><a href="/index.php/Home/Product/ProductList/cid/630.html" class="fl">
+车载蓝牙 </a><a href="/index.php/Home/Product/ProductList/cid/631.html" class="fl">
+智能驾驶 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/611.html">美容清洗&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/612.html" class="fl">
+洗车机 </a><a href="/index.php/Home/Product/ProductList/cid/613.html" class="fl">
+洗车水枪 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/615.html">安全自驾&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/632.html" class="fl">
+胎压监测 </a><a href="/index.php/Home/Product/ProductList/cid/633.html" class="fl">
+充气泵 </a><a href="/index.php/Home/Product/ProductList/cid/634.html" class="fl">
+应急救援 </a><a href="/index.php/Home/Product/ProductList/cid/635.html" class="fl">
+防盗设备 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/623.html">赛事改装&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+ <a href="/index.php/Home/Product/ProductList/cid/624.html" class="fl">
+赛事服装 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack10"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/34.html">母婴玩具</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/421.html">奶粉&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/422.html" class="fl">
+1段 </a><a href="/index.php/Home/Product/ProductList/cid/425.html" class="fl">
+2段 </a><a href="/index.php/Home/Product/ProductList/cid/426.html" class="fl">
+3段 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/437.html">营养辅食&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/439.html" class="fl">
+米粉/菜粉 </a><a href="/index.php/Home/Product/ProductList/cid/441.html" class="fl">
+面条/粥 </a><a href="/index.php/Home/Product/ProductList/cid/443.html" class="fl">
+果泥/果汁 </a><a href="/index.php/Home/Product/ProductList/cid/445.html" class="fl">
+微波炉 </a><a href="/index.php/Home/Product/ProductList/cid/448.html" class="fl">
+益生菌/初乳 </a><a href="/index.php/Home/Product/ProductList/cid/450.html" class="fl">
+DHA </a><a href="/index.php/Home/Product/ProductList/cid/451.html" class="fl">
+钙铁锌/维生素 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+ <a href="/index.php/Home/Product/ProductList/cid/453.html">尿裤湿巾&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/455.html" class="fl">
+NB </a><a href="/index.php/Home/Product/ProductList/cid/459.html" class="fl">
+S </a><a href="/index.php/Home/Product/ProductList/cid/460.html" class="fl">
+M </a><a href="/index.php/Home/Product/ProductList/cid/462.html" class="fl">
+L </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack2"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/15.html">食品酒类</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/232.html">新鲜水果&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/233.html" class="fl">
+苹果 </a><a href="/index.php/Home/Product/ProductList/cid/234.html" class="fl">
+香蕉 </a><a href="/index.php/Home/Product/ProductList/cid/235.html" class="fl">
+梨子 </a><a href="/index.php/Home/Product/ProductList/cid/236.html" class="fl">
+橙子 </a><a href="/index.php/Home/Product/ProductList/cid/237.html" class="fl">
+奇异果/猕猴桃 </a><a href="/index.php/Home/Product/ProductList/cid/238.html" class="fl">
+火龙果 </a><a href="/index.php/Home/Product/ProductList/cid/239.html" class="fl">
+瓜类 </a><a href="/index.php/Home/Product/ProductList/cid/240.html" class="fl">
+芒果 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/244.html">蔬菜蛋品&nbsp;<b>></b></a>
+ </dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/245.html" class="fl">
+蛋品 </a><a href="/index.php/Home/Product/ProductList/cid/246.html" class="fl">
+叶菜类 </a><a href="/index.php/Home/Product/ProductList/cid/247.html" class="fl">
+根茎类 </a><a href="/index.php/Home/Product/ProductList/cid/248.html" class="fl">
+葱姜蒜椒 </a><a href="/index.php/Home/Product/ProductList/cid/249.html" class="fl">
+鲜菌菇 </a><a href="/index.php/Home/Product/ProductList/cid/250.html" class="fl">
+茄果瓜类 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/270.html">精选肉类&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/272.html" class="fl">
+猪肉 </a><a href="/index.php/Home/Product/ProductList/cid/273.html" class="fl">
+牛肉 </a><a href="/index.php/Home/Product/ProductList/cid/275.html" class="fl">
+羊肉 </a><a href="/index.php/Home/Product/ProductList/cid/276.html" class="fl">
+鸡肉 </a><a href="/index.php/Home/Product/ProductList/cid/278.html" class="fl">
+鸭肉 </a><a href="/index.php/Home/Product/ProductList/cid/280.html" class="fl">
+冷鲜肉 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/311.html">海鲜水产&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/314.html" class="fl">
+鱼类 </a><a href="/index.php/Home/Product/ProductList/cid/317.html" class="fl">
+虾类 </a><a href="/index.php/Home/Product/ProductList/cid/319.html" class="fl">
+蟹类 </a><a href="/index.php/Home/Product/ProductList/cid/321.html" class="fl">
+贝类 </a><a href="/index.php/Home/Product/ProductList/cid/324.html" class="fl">
+海参 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/328.html">冷饮冻食&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/330.html" class="fl">
+水饺/馄饨 </a><a href="/index.php/Home/Product/ProductList/cid/332.html" class="fl">
+汤圆/元宵 </a><a href="/index.php/Home/Product/ProductList/cid/333.html" class="fl">
+面点/面食 </a><a href="/index.php/Home/Product/ProductList/cid/335.html" class="fl">
+奶酪/黄油 </a><a href="/index.php/Home/Product/ProductList/cid/337.html" class="fl">
+火锅丸串 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/346.html">进口食品&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/347.html" class="fl">
+牛奶 </a><a href="/index.php/Home/Product/ProductList/cid/348.html" class="fl">
+饼干蛋糕 </a><a href="/index.php/Home/Product/ProductList/cid/349.html" class="fl">
+糖果/巧克力 </a><a href="/index.php/Home/Product/ProductList/cid/350.html" class="fl">
+休闲零食 </a><a href="/index.php/Home/Product/ProductList/cid/351.html" class="fl">
+冲调饮品 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack9"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/33.html">图书音像</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/166.html">少儿&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/167.html" class="fl">
+0-2岁 </a><a href="/index.php/Home/Product/ProductList/cid/168.html" class="fl">
+3-6岁 </a><a href="/index.php/Home/Product/ProductList/cid/169.html" class="fl">
+7-10岁 </a><a href="/index.php/Home/Product/ProductList/cid/170.html" class="fl">
+11-14岁 </a><a href="/index.php/Home/Product/ProductList/cid/171.html" class="fl">
+儿童文学 </a><a href="/index.php/Home/Product/ProductList/cid/172.html" class="fl">
+绘本 </a><a href="/index.php/Home/Product/ProductList/cid/173.html" class="fl">
+科普 </a><a href="/index.php/Home/Product/ProductList/cid/174.html" class="fl">
+幼儿启蒙 </a><a href="/index.php/Home/Product/ProductList/cid/175.html" class="fl">
+手工游戏 </a><a href="/index.php/Home/Product/ProductList/cid/176.html" class="fl">
+智力开发 </a><a href="/index.php/Home/Product/ProductList/cid/177.html" class="fl">
+少儿英语 </a><a href="/index.php/Home/Product/ProductList/cid/178.html" class="fl">
+动漫卡通 </a><a href="/index.php/Home/Product/ProductList/cid/180.html" class="fl">
+学前教育 </a><a href="/index.php/Home/Product/ProductList/cid/183.html" class="fl">
+少儿国学 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/184.html">教育&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/185.html" class="fl">
+教材 </a><a href="/index.php/Home/Product/ProductList/cid/186.html" class="fl">
+中小学教辅 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/189.html">经管励志&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/192.html" class="fl">
+管理 </a><a href="/index.php/Home/Product/ProductList/cid/194.html" class="fl">
+金融与投资 </a><a href="/index.php/Home/Product/ProductList/cid/196.html" class="fl">
+经济 </a><a href="/index.php/Home/Product/ProductList/cid/199.html" class="fl">
+励志与成功 </a><a href="/index.php/Home/Product/ProductList/cid/201.html" class="fl">
+市场营销 </a><a href="/index.php/Home/Product/ProductList/cid/202.html" class="fl">
+股票 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/205.html">人文社科&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/207.html" class="fl">
+历史 </a><a href="/index.php/Home/Product/ProductList/cid/209.html" class="fl">
+心理学 </a><a href="/index.php/Home/Product/ProductList/cid/210.html" class="fl">
+政治/军事 </a><a href="/index.php/Home/Product/ProductList/cid/212.html" class="fl">
+国学/古籍 </a><a href="/index.php/Home/Product/ProductList/cid/214.html" class="fl">
+哲学/宗教 </a><a href="/index.php/Home/Product/ProductList/cid/217.html" class="fl">
+社会科学 </a><a href="/index.php/Home/Product/ProductList/cid/218.html" class="fl">
+法律  </a><a href="/index.php/Home/Product/ProductList/cid/220.html" class="fl">
+文化 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/227.html">生活&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/229.html" class="fl">
+育儿/家教 </a><a href="/index.php/Home/Product/ProductList/cid/231.html" class="fl">
+孕产/胎教 </a> </dd>
+</dl> </div>
+</dd><dd class="menu">
+<div class="clearfix">
+<i class="fl menuItemBack11"></i>
+<span class="fl"><a href="/index.php/Home/Product/ProductList/cid/37.html">礼品鲜花</a></span>
+<em class="fr"></em>
+</div>
+<div class="i-mc">
+<dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/137.html">礼品&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/139.html" class="fl">
+美妆礼品 </a><a href="/index.php/Home/Product/ProductList/cid/141.html" class="fl">
+工艺礼品 </a><a href="/index.php/Home/Product/ProductList/cid/142.html" class="fl">
+礼盒礼券 </a><a href="/index.php/Home/Product/ProductList/cid/145.html" class="fl">
+礼品文具 </a><a href="/index.php/Home/Product/ProductList/cid/669.html" class="fl">
+收藏品 </a> </dd>
+</dl><dl class="classification2 clearfix">
+<dt class="fl">
+<a href="/index.php/Home/Product/ProductList/cid/149.html">绿植园艺&nbsp;<b>></b></a>
+</dt>
+<dd class="fl clearfix">
+<a href="/index.php/Home/Product/ProductList/cid/151.html" class="fl">
+绿植盆栽 </a><a href="/index.php/Home/Product/ProductList/cid/153.html" class="fl">
+多肉植物  </a><a href="/index.php/Home/Product/ProductList/cid/155.html" class="fl">
+花卉 </a><a href="/index.php/Home/Product/ProductList/cid/156.html" class="fl">
+苗木 </a><a href="/index.php/Home/Product/ProductList/cid/157.html" class="fl">
+花盆花器 </a><a href="/index.php/Home/Product/ProductList/cid/159.html" class="fl">
+种子种球 </a> </dd>
+</dl> </div>
+</dd> </dd>
+</dl>
+<ul class="fr clearfix navitems-2016">
+
+<li class="fl">
+<a class="active" href="/index.php/Home/Index/index">首页</a>
+</li><li class="fl">
+<a href="/index.php/Home/LatestPromotion/index">最新促销</a>
+</li><li class="fl">
+<a href="/index.php/Home/Poop/index">尾货清仓</a>
+</li><li class="fl">
+<a href="/index.php/Home/Brand/index">品牌店</a>
+</li><li class="fl">
+<a href="/index.php/Home/LifeUse/index">家用电器</a>
+</li><li class="fl">
+<a href="/index.php/Home/Printing/index">家具厨具</a>
+<span><img src="http://demo.shopsn.net/Public/Home/img/new1.gif" alt=""></span> </li><li class="fl">
+<a href="/index.php/Home/Hardware/index">电脑办公</a>
+</li><li class="fl">
+<a href="/index.php/Home/IntegralMall/index">积分商城</a>
+</li><li class="fl">
+<a href="/index.php/Home/Join/join">加盟我们</a>
+</li> </ul>
+</div>
+</div>
+
+<script>
+        var _this = null;
+        var clear = null;
+        var timer = null;
+        $('#pp').on('input',function(){
+            _this = $(this);
+            clearInterval(clear);
+            clear = setTimeout(function(){
+                var _url ="/index.php/Home/Goods/search.html";
+                var _data = _this.val();
+                $.post(_url,{title:_data},function(data){
+                    if(data.status==0){
+                        /*	layer.msg(data.message);*/
+                    }
+                    if(data.status==1){
+                        var _a=data.data;
+                        var _b="/index.php/Home/Goods/goodsDetails.html"
+                        var _html='';
+                        for (var i in _a){
+                            _html +='<div><a href="'+_b+'?id='+_a[i].id+'"> '+_a[i].title+'</a></div>';
+                        }
+                    }
+                    $('.gg').html(_html);
+                    $('input[name="id"]').val(_a[0].id);
+                    if(data.status==2){
+                        $('.gg').html('');
+                    }
+                },'json')
+            },300);
+        }).on('keydown',function(ev){
+            if(ev.keyCode == 13){
+                if($(this).val() == ''){
+                    alert('搜索不能为空！');
+                }else{
+                    clearTimeout(timer);
+                    timer = setTimeout(function(){
+                        $('#pp').parents('form').submit();
+                    },800);
+                }
+                return false;
+            }
+            ev.stopPropagation();
+        });
+    </script>
+
+<script>
+        $('#new_cart_data').on('click','.dels',function(){
+            var _url="/index.php/Home/Goods/dels.html";
+            var _id=$(this).attr('data');
+            $.post(_url,{id:_id},function(data){
+                if(data.status==0){
+                    layer.msg(data.message);
+                }
+            })
+            var _count=parseInt($('#couts').html());
+            $(this).parent().parent().remove('dd');
+            $('#couts').html(_count-1);
+        })
+    </script>
+
+
+<script>
+        function addAd(ele){
+            var _id=$(ele).attr('gg');
+            var _reurl=$(ele).attr('data');
+            var _locatUrl="/index.php/Home/Ad/addhit.html";
+            $.post(_locatUrl, {id:_id},function(data){
+                console.log(data.msg);
+            },'JSON')
+            window.location.href=_reurl;
+        }
+    </script>
+<script>
+       $("#formsarch").submit(function(){
+           $("#ser-id").remove();
+       });
+
+   </script>
+轮播
+<div class="hpTopNews clearfix">
+<div class="null fl"></div>
+<div class="hpTopBanner fl">
+<ul class="fl slides clearfix">
+<li class="fl"><a href="javscript:;"><img></a></li>
+<li class="fl"><a href="javscript:;"><img></a></li>
+</ul>
+<a href="javascript:;" class="left"><</a>
+<a href="javascript:;" class="right">></a>
+<div class="page">
+<input type="hidden" id="banner_url" value="/index.php/Home/Index/banner.html" />
+</div>
+</div>
+<div class="fl hpLeftBanner">
+<div class="special-sales">
+<h2 class="clearfix">
+<span class="fl">新品</span>
+<a href="/index.php/Home/Product/ProductList/show/show/new/new.html" class="fr">更多></a>
+</h2>
+<div class="mc">
+<ul>
+<li style="overflow: hidden;" class="active"><a href=""><img width="284" height="115" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load1.jpg" data-original="/Uploads/ad/2018/06-26/5b31ee57c44ba.jpg" /></a></li><li style="overflow: hidden;"><a href=""><img width="284" height="115" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load1.jpg" data-original="/Uploads/ad/2018/06-26/5b31edbb6056c.jpg" /></a></li><li style="overflow: hidden;"><a href=""><img width="284" height="115" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load1.jpg" data-original="/Uploads/ad/2018/06-26/5b31ede46dad7.jpg" /></a></li>
+</ul>
+<ol class="clearfix">
+<li class="fl hover">
+香水 </li><li class="fl active">
+化妆品 </li><li class="fl">
+洗护品 </li> </ol>
+</div>
+</div>
+<div class="jdnews">
+<h3 class="clearfix">
+<b class="fl">亿速公告</b>
+<a href="/index.php/Home/Service/getAnnounceList.html" class="fr">更多></a>
+</h3>
+<p>
+<a href="/index.php/Home/Service/getAnnouDetails/id/8.html" class="clearfix">
+<em class="fl">[公告]</em>
+<span class="fl">
+6月活动 </span>
+</a>
+</p><p>
+<a href="/index.php/Home/Service/getAnnouDetails/id/7.html" class="clearfix">
+<em class="fl">[公告]</em>
+<span class="fl">
+复印纸秒杀时间调整通知 </span>
+</a>
+</p><p>
+<a href="/index.php/Home/Service/getAnnouDetails/id/6.html" class="clearfix">
+<em class="fl">[公告]</em>
+<span class="fl">
+配送时效延迟公告 </span>
+</a>
+</p><p>
+<a href="/index.php/Home/Service/getAnnouDetails/id/5.html" class="clearfix">
+<em class="fl">[公告]</em>
+<span class="fl">
+关于客户三证合一、开票资... </span>
+</a>
+</p><p>
+<a href="/index.php/Home/Service/getAnnouDetails/id/4.html" class="clearfix">
+<em class="fl">[公告]</em>
+<span class="fl">
+办公用纸调价通知函 </span>
+</a>
+</p> </div>
+</div>
+</div>
+<div class="home-today w">
+<div class="fl home-today-fl">
+<img src="http://demo.shopsn.net/Public/Home/img/t-title.jpg" alt="">
+<i class="mrtj-sj"></i>
+<ol class="mrtj-tab clearfix">
+<li class="fl active">我喜欢的产品</li>
+<li class="fl" onclick="restric()">超值让利</li>
+<li class="fl">最新爆款</li>
+</ol>
+</div>
+<div class="fl home-today-fr">
+<ul class="clearfix active">
+<li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ec72eec68.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ed3a19284.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ed2b10602.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ed1aa25db.jpg" alt=""></a></li> </ul>
+<ul class="clearfix">
+<li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ed021ab7d.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ec28f2998.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ec35a50f0.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ec4e2c62f.jpg" alt=""></a></li> </ul>
+<ul class="clearfix">
+<li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ec5b7c2fb.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31eb0daa1ab.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ec7dd5990.jpg" alt=""></a></li><li class="fl"><a href=""><img height="165" width="247" class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" data-original="/Uploads/ad/2018/06-26/5b31ed78afd7e.jpg" alt=""></a></li> </ul>
+<ul class="clearfix">
+<li class="fl"><a href="javascript:;"><img class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" alt=""></a></li>
+<li class="fl"><a href="javascript:;"><img class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" alt=""></a></li>
+<li class="fl"><a href="javascript:;"><img class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" alt=""></a></li>
+<li class="fl"><a href="javascript:;"><img class="lazy" src="http://demo.shopsn.net/Public/Home/img/load2.jpg" alt=""></a></li>
+
+</ul>
+</div>
+</div>
+
+<div id="goods_class"></div>
+</div>
+
+<div id="menu">
+<ul>
+<li>家用电器<span>家用电器</span></li><li>手机数码<span>手机数码</span></li><li>电脑办公<span>电脑办公</span></li><li>家居厨具<span>家居厨具</span></li><li>女装男装<span>女装男装</span></li><li>美妆个护<span>美妆个护</span></li><li>女鞋箱包<span>女鞋箱包</span></li><li>汽车用品<span>汽车用品</span></li><li>母婴玩具<span>母婴玩具</span></li><li>食品酒类<span>食品酒类</span></li><li>图书音像<span>图书音像</span></li><li>礼品鲜花<span>礼品鲜花</span></li> </ul>
+</div>
+<input type="hidden" id="loading" value="http://demo.shopsn.net" />
+<script src="//cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+<script src="http://demo.shopsn.net/Public/Home/js/index.js"></script>
+<script>
+        var goodsClassUrl = "/index.php/Home/Index/getGoodsClass.html";//获取分类接口(原)
+        var newGoodsClassUrl = "/index.php/Home/IndexClass/getGoodsClass.html";//获取分类接口(新)
+
+        var ProductListUrl = "/index.php/Home/Product/ProductList.html";
+        var BrandListUrl = "/index.php/Home/Brand/index.html";
+        var goodsDetailsUrl = "/index.php/Home/Goods/goodsDetails.html";
+    </script>
+<script src="http://demo.shopsn.net/Public/Home/js/indexScroll.js"></script>
+
+<ul class="home-tab">
+<li>
+<em></em>
+<span>0 </span>
+<div class="userTips">
+<p>已过期的优惠券：<b>0 </b></p>
+<p>使用过的优惠券：<b>0 </b></p>
+<p>可以使用的优惠券：<b>0 </b></p>
+</div>
+</li>
+<li>
+<a class="kefu-font" href='javascript:;' onclick='easemobim.bind({
+        //请使用自己的租户ID
+         tenantId: "39449",
+         //是否隐藏小的悬浮按钮
+         hide: true
+        })'>客服</a>
+<div class="userTips one">
+</div>
+</li>
+<li>
+物流
+<div class="userTips one">
+<iframe name="kuaidi100" src="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600" width="600" height="360" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+</div>
+</li>
+<li>
+<a href="/index.php/Home/Cart/goods.html" class="kefu-font">购物车</a>
+</li>
+<li><a class="kefu-font" href='javascript:;' onclick='easemobim.bind({
+        //请使用自己的租户ID
+         tenantId: "39449",
+         //是否隐藏小的悬浮按钮
+         hide: true
+        })'>投诉</a>
+<div class="userTips one">
+</div>
+</li>
+<script>
+				window.easemobim = window.easemobim || {};
+				var trueName = "hxh";
+				easemobim.config = {
+					//访客信息，以下参数支持变量
+					visitor: {
+						trueName:trueName,
+						qq: '',
+						phone:trueName,
+						companyName: '',
+						userNickname:trueName,
+						description: '',
+						email: ''
+					},
+				};
+			</script>
+<script src='//kefu.easemob.com/webim/easemob.js'></script>
+<li>关闭</li>
+</ul>
+
+<div class="hm-go-top-parent">
+<div class="hm-go-top active"></div>
+<div class="hm-tit-top">顶部</div>
+</div>
+
+<div class="public-footer">
+<div class="public-footer-top clearfix">
+<ul class="code clearfix fl">
+<li class="code-fl fl">
+<img width="102" height="102" src="/Uploads/qrCode/149940925862409.png" alt="二维码">
+<p>亿速网络官方微信服务号 扫一扫，享更多优惠</p>
+</li>
+<li class="code-fr fl">
+<p class="active">400-800-900</p>
+<p>工作日(9:00-18:00)</p>
+</li>
+</ul>
+<div class="footer007 fl clearfix">
+<dl class="fl">
+<dt>新手指南</dt>
+<dd>
+<a href="/index.php/Home/Article/articleDetails/id/20.html">用户注册</a>
+</dd><dd>
+<a href="/index.php/Home/Article/articleDetails/id/21.html">账户登录</a>
+</dd><dd>
+<a href="/index.php/Home/Article/articleDetails/id/22.html">信息变更</a>
+</dd> </dl><dl class="fl">
+<dt>支付方式</dt>
+<dd>
+<a href="/index.php/Home/Article/articleDetails/id/23.html">货到付款</a>
+</dd><dd>
+<a href="/index.php/Home/Article/articleDetails/id/24.html">支付宝、银联支付</a>
+</dd><dd>
+<a href="/index.php/Home/Article/articleDetails/id/25.html">信用卡支付</a>
+</dd> </dl><dl class="fl">
+<dt>配送方式</dt>
+<dd>
+<a href="/index.php/Home/Article/articleDetails/id/26.html">全场免配送费</a>
+</dd><dd>
+<a href="/index.php/Home/Article/articleDetails/id/27.html">配送范围</a>
+</dd><dd>
+<a href="/index.php/Home/Article/articleDetails/id/28.html">验货与签收</a>
+</dd> </dl><dl class="fl">
+<dt>售后服务</dt>
+<dd>
+<a href="/index.php/Home/Article/articleDetails/id/29.html">退换货政策</a>
+</dd><dd>
+<a href="/index.php/Home/Article/articleDetails/id/30.html">退货流程</a>
+</dd> </dl><dl class="fl">
+<dt>了解我们</dt>
+<dd>
+<a href="/index.php/Home/Article/articleDetails/id/31.html">关于我们</a>
+</dd><dd>
+<a href="/index.php/Home/Article/articleDetails/id/32.html">联系我们</a>
+</dd> </dl> </div>
+</div>
+<div class="footer009">
+<img class="lazy" src="http://demo.shopsn.net/Public/Home/img/footer.png" data-original="http://demo.shopsn.net/Public/Home/img/footer.png" alt="">
+</div>
+<div class="footer10">
+<a href="http://test.shopsn.net">上海XXXXXXXX公司</a>
+</div>
+<div class="footer10">
+<a href="javascript:;">关于我们</a>|
+<a href="javascript:;">联系我们</a>|
+<a href="javascript:;">加盟我们</a>|
+<a href="javascript:;">商城APP</a>|
+<a href="javascript:;">友情链接</a>
+</div>
+<div class="footer11">
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/1.jpg" src="http://demo.shopsn.net/Public/Home/img/1.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/2.jpg" src="http://demo.shopsn.net/Public/Home/img/2.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/3.jpg" src="http://demo.shopsn.net/Public/Home/img/3.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/4.jpg" src="http://demo.shopsn.net/Public/Home/img/4.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/5.jpg" src="http://demo.shopsn.net/Public/Home/img/5.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/6.jpg" src="http://demo.shopsn.net/Public/Home/img/6.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/7.jpg" src="http://demo.shopsn.net/Public/Home/img/7.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/8.jpg" src="http://demo.shopsn.net/Public/Home/img/8.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/9.jpg" src="http://demo.shopsn.net/Public/Home/img/9.jpg" alt=""></a>
+<a href="javascript:;"><img class="lazy" data-original="http://demo.shopsn.net/Public/Home/img/10.jpg" src="http://demo.shopsn.net/Public/Home/img/10.jpg" alt=""></a>
+</div>
+<div class="footer10">
+<span>ShopsN全网开源<a style="padding: 0px" href="http://www.shopsn.net">商城系统</a>&nbsp;提供技术支持</span>
+</div>
+</div>
+<script type="text/javascript">
+var AREA_LIST_CITY = "/index.php/Home/Index/getList.html";
+</script>
+<script src="http://demo.shopsn.net/Public/Home/js/header.js"></script>
+<script src="http://demo.shopsn.net/Public/Home/js/home.js"></script>
+</body>
+</html><div id="think_page_trace" style="position: fixed;bottom:0;right:0;font-size:14px;width:100%;z-index: 999999;color: #000;text-align:left;font-family:'微软雅黑';">
+<div id="think_page_trace_tab" style="display: none;background:white;margin:0;height: 250px;">
+<div id="think_page_trace_tab_tit" style="height:30px;padding: 6px 12px 0;border-bottom:1px solid #ececec;border-top:1px solid #ececec;font-size:16px">
+<span style="color:#000;padding-right:12px;height:30px;line-height: 30px;display:inline-block;margin-right:3px;cursor: pointer;font-weight:700">基本</span>
+<span style="color:#000;padding-right:12px;height:30px;line-height: 30px;display:inline-block;margin-right:3px;cursor: pointer;font-weight:700">文件</span>
+<span style="color:#000;padding-right:12px;height:30px;line-height: 30px;display:inline-block;margin-right:3px;cursor: pointer;font-weight:700">流程</span>
+<span style="color:#000;padding-right:12px;height:30px;line-height: 30px;display:inline-block;margin-right:3px;cursor: pointer;font-weight:700">错误</span>
+<span style="color:#000;padding-right:12px;height:30px;line-height: 30px;display:inline-block;margin-right:3px;cursor: pointer;font-weight:700">SQL</span>
+<span style="color:#000;padding-right:12px;height:30px;line-height: 30px;display:inline-block;margin-right:3px;cursor: pointer;font-weight:700">调试</span>
+</div>
+<div id="think_page_trace_tab_cont" style="overflow:auto;height:212px;padding: 0; line-height: 24px">
+<div style="display:none;">
+<ol style="padding: 0; margin:0">
+<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">请求信息 : 2018-08-21 10:11:29 HTTP/1.1 GET : /index.php/Home/Index/index.html</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">运行时间 : 0.0584s ( Load:0.0072s Init:0.0010s Exec:0.0311s Template:0.0191s )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">吞吐率 : 17.12req/s</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">内存开销 : 3,379.03 kb</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">查询信息 : 31 queries 0 writes </li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">文件加载 : 62</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">缓存信息 : 13 gets 1 writes </li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">配置加载 : 152</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">会话信息 : SESSION_ID=5oks8fg222bddnh7kufru9o33v</li> </ol>
+</div>
+<div style="display:none;">
+<ol style="padding: 0; margin:0">
+<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/index.php ( 1.35 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/index.php ( 4.71 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Think.class.php ( 12.48 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Storage.class.php ( 1.38 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Storage/Driver/File.class.php ( 3.56 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Mode/common.php ( 2.82 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Common/functions.php ( 54.12 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Common/function.php ( 5.91 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Hook.class.php ( 4.02 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/App.class.php ( 13.60 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Dispatcher.class.php ( 15.68 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Route.class.php ( 13.38 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Controller.class.php ( 11.32 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/View.class.php ( 7.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Behavior/BuildLiteBehavior.class.php ( 3.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Behavior/ParseTemplateBehavior.class.php ( 3.89 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Behavior/ContentReplaceBehavior.class.php ( 1.91 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Conf/convention.php ( 11.19 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Conf/config.php ( 3.68 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Lang/zh-cn.php ( 2.57 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Conf/debug.php ( 1.51 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Log.class.php ( 3.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Conf/db.php ( 1.30 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Conf/config.php ( 3.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Conf/tags.php ( 0.93 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Conf/tmpl.php ( 1.43 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Behavior/ReadHtmlCacheBehavior.class.php ( 5.62 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Controller/IndexController.class.php ( 33.38 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Controller/BaseController.class.php ( 8.61 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/WhoIsShe.class.php ( 1.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/NoticeTrait.class.php ( 3.94 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/InternetTopTrait.class.php ( 3.63 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/SmsVerification.class.php ( 4.67 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Tool/Tool.class.php ( 13.73 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Cache.class.php ( 3.84 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Cache/Driver/File.class.php ( 5.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Model/ArticleModel.class.php ( 1.49 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Model.class.php ( 66.82 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Db.class.php ( 5.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Db/Driver/Mysql.class.php ( 6.96 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Db/Driver.class.php ( 41.26 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Model/GoodsModel.class.php ( 40.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Model/BaseModel.class.php ( 27.66 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/MethodModel.class.php ( 8.06 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/ModelToolTrait.class.php ( 17.05 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Model/InterFacePropertyClass.class.php ( 2.22 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/ColumShowHTMLTrait.class.php ( 3.05 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/callBackClass.class.php ( 1.20 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/TraitClass/ParsePromotionTrait.class.php ( 1.42 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Model/SystemConfigModel.class.php ( 2.50 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Common/Tool/Extend/ArrayParse.class.php ( 7.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Org/Net/IpLocation.class.php ( 8.86 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Model/HotWordsModel.class.php ( 2.12 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Model/AdModel.class.php ( 3.83 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Model/AnnouncementModel.class.php ( 2.29 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Application/Home/Model/GoodsClassModel.class.php ( 16.35 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Template.class.php ( 28.35 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Template/TagLib/Cx.class.php ( 22.62 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Think/Template/TagLib.class.php ( 9.19 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php ( 28.07 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Behavior/WriteHtmlCacheBehavior.class.php ( 1.43 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">/www/wwwroot/demo.shopsn.net/Core/Library/Behavior/ShowPageTraceBehavior.class.php ( 5.27 KB )</li> </ol>
+</div>
+<div style="display:none;">
+<ol style="padding: 0; margin:0">
+<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ app_begin ] --START--</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ app_begin ] --END-- [ RunTime:0.000283s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ view_parse ] --START--</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ template_filter ] --START--</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ template_filter ] --END-- [ RunTime:0.000351s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">Run Behavior\ParseTemplateBehavior [ RunTime:0.018118s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ view_parse ] --END-- [ RunTime:0.018145s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ view_filter ] --START--</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ view_filter ] --END-- [ RunTime:0.000188s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ app_end ] --START--</li> </ol>
+</div>
+<div style="display:none;">
+<ol style="padding: 0; margin:0">
+<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[8] Undefined variable: big /www/wwwroot/demo.shopsn.net/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[8] Undefined variable: big /www/wwwroot/demo.shopsn.net/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.</li> </ol>
+</div>
+<div style="display:none;">
+<ol style="padding: 0; margin:0">
+</ol>
+</div>
+<div style="display:none;">
+<ol style="padding: 0; margin:0">
+</ol>
+</div>
+</div>
+</div>
+<div id="think_page_trace_close" style="display:none;text-align:right;height:15px;position:absolute;top:10px;right:12px;cursor: pointer;"><img style="vertical-align:top;" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAAMDA////wAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQxMjc1MUJCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQxMjc1MUNCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDEyNzUxOUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDEyNzUxQUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAPAA8AAAIdjI6JZqotoJPR1fnsgRR3C2jZl3Ai9aWZZooV+RQAOw==" /></div>
+</div>
+<div id="think_page_trace_open" style="height:30px;float:right;text-align: right;overflow:hidden;position:fixed;bottom:0;right:0;color:#000;line-height:30px;cursor:pointer;"><div style="background:#232323;color:#FFF;padding:0 6px;float:right;line-height:30px;font-size:14px">0.0584s </div><img width="30" style="" title="ShowPageTrace" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjVERDVENkZGQjkyNDExRTE5REY3RDQ5RTQ2RTRDQUJCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjVERDVENzAwQjkyNDExRTE5REY3RDQ5RTQ2RTRDQUJCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NURENUQ2RkRCOTI0MTFFMTlERjdENDlFNDZFNENBQkIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NURENUQ2RkVCOTI0MTFFMTlERjdENDlFNDZFNENBQkIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5fx6IRAAAMCElEQVR42sxae3BU1Rk/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"></div>
+<script type="text/javascript">
+(function(){
+var tab_tit  = document.getElementById('think_page_trace_tab_tit').getElementsByTagName('span');
+var tab_cont = document.getElementById('think_page_trace_tab_cont').getElementsByTagName('div');
+var open     = document.getElementById('think_page_trace_open');
+var close    = document.getElementById('think_page_trace_close').childNodes[0];
+var trace    = document.getElementById('think_page_trace_tab');
+var cookie   = document.cookie.match(/thinkphp_show_page_trace=(\d\|\d)/);
+var history  = (cookie && typeof cookie[1] != 'undefined' && cookie[1].split('|')) || [0,0];
+open.onclick = function(){
+	trace.style.display = 'block';
+	this.style.display = 'none';
+	close.parentNode.style.display = 'block';
+	history[0] = 1;
+	document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+}
+close.onclick = function(){
+	trace.style.display = 'none';
+this.parentNode.style.display = 'none';
+	open.style.display = 'block';
+	history[0] = 0;
+	document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+}
+for(var i = 0; i < tab_tit.length; i++){
+	tab_tit[i].onclick = (function(i){
+		return function(){
+			for(var j = 0; j < tab_cont.length; j++){
+				tab_cont[j].style.display = 'none';
+				tab_tit[j].style.color = '#999';
+			}
+			tab_cont[i].style.display = 'block';
+			tab_tit[i].style.color = '#000';
+			history[1] = i;
+			document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+		}
+	})(i)
+}
+parseInt(history[0]) && open.click();
+(tab_tit[history[1]] || tab_tit[0]).click();
+})();
+</script>

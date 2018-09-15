@@ -1,0 +1,35 @@
+.tips-new-white {
+    position: absolute;
+    left: 70px;
+    top: 16px;
+}
+.tips-new-white b {
+    position: absolute;
+    top: 12px;
+    left: -8px;
+    width: 9px;
+    height: 17px;
+    vertical-align: middle;
+    background: url(//misc.360buyimg.com/user/purchase/2.0.0/css/i/arrow-left.png) 0 0 no-repeat;
+}
+.tips-new-white span {
+    float: left;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-top: 5px;
+    box-shadow: 0 0 3px rgba(0,0,0,.15);
+    border: 1px solid #ddd;
+}
+.tips-new-white span i {
+    width: 12px;
+    height: 16px;
+    background: url(//misc.360buyimg.com/user/purchase/2.0.0/css/i/light-icon.png) 0 0 no-repeat;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    top: -1px;
+    margin-right: 5px;
+}

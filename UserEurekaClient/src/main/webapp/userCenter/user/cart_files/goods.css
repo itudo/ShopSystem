@@ -1,0 +1,116 @@
+
+.cart .cart-main .cart-list dt .checkbox-main {
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.cart .cart-main .cart-list dt .checkbox-warp {
+    width: 590px;
+}
+
+.cart .cart-main .cart-list dt .p-quantity {
+    line-height: 50px;
+    width: 129px;
+    text-indent: 20px;
+    font-weight: bold;
+}
+.cart .cart-main .cart-list dt .search-main {
+    padding: 12px 24px;
+}
+.cart .cart-main .cart-list dt .search-main a {
+    width: 22px;
+    height: 25px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 25px;
+    background: #f0f0f0;
+    color: #000;
+    text-align: center;
+}
+.cart .cart-main .cart-list dt .search-main input {
+    width: 40px;
+    height: 23px;
+    text-align: center;
+}
+.cart .cart-main .cart-list dt .p-sum {
+    width: 175px;
+    color: #d45558;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 16px;
+}
+.cart .cart-main .cart-list dt .p-sum em {
+    font-size: 12px;
+    color: #333;
+    height: 50px;
+    line-height: 58px;
+    padding-left: 1px;
+}
+.cart .cart-main .cart-list dt .search-main a {
+    width: 22px;
+    height: 25px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 25px;
+    background: #f0f0f0;
+    color: #000;
+    text-align: center;
+}
+.cart-main .cart-list .search-main a.decrement.active, .cart-main .cart-list .search-main a.increment.active, .cart .cart-main .cart-list dd .p-quantity a.decrement.active, .cart .cart-main .cart-list dd .p-quantity a.increment.active {
+    color: #ccc;
+    cursor: not-allowed;
+}
+.cart .cart-main .cart-list dt .delete-btn {
+    margin-top: 15px;
+    color: #000;
+}
+.cart .cart-main .cart-list dd {
+    padding: 22px;
+    border-bottom: 1px solid #ccc;
+}
+.cart .cart-main .cart-list dd .p-goods {
+    width: 335px;
+}
+.cart .cart-main .cart-list dd .p-goods .p-img {
+    border: 1px solid #ccc;
+    margin-left: 12px;
+}
+.cart .cart-main .cart-list dd .p-goods .p-name {
+    width: 170px;
+    padding-left: 10px;
+}
+.cart .cart-main .cart-list dd .p-good {
+    width: 263px;
+    text-indent: 20px;
+}
+
+.cart .cart-main .cart-list dd .p-price {
+    width: 122px;
+}
+.cart .cart-main .cart-list dd .p-quantity {
+    width: 112px;
+    font-weight: bold;
+}
+.cart .cart-main .cart-list dd .p-sum {
+    width: 175px;
+    color: #d45558;
+    font-size: 14px;
+    font-weight: bold;
+    text-indent: 18px;
+}
+.cart .cart-main .cart-list dd .p-price i {
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+.cart .cart-main .cart-list dd .p-price b {
+    font-size: 14px;
+    font-family: 'Arial';
+    color: #000;
+}
+.cart .cart-main .cart-list dd .p-ops a {
+    display: block;
+    font-size: 12px;
+    color: #333;
+}

@@ -1,0 +1,197 @@
+* { margin: 0px; padding: 0px }
+body { font-size: 12px; font-family: Tahoma, "宋体" }
+.div_clb { width: 100%; height: 0px; clear: both; }
+/*loading背景*/
+.loading { margin: auto; width: 540px }
+.loading .loading-1 { width: 230px; margin: 80px auto 10px auto; }
+.loading .loading-2 { width: 32px; margin: auto; }
+table { border-collapse: collapse; border-spacing: 0 }
+a { text-decoration: none; color: #0033cc }
+a:hover { text-decoration: underline }
+a img { border: none }
+.clear { clear: both; overflow: hidden; height: 0 }
+li { list-style: none }
+.fl { float: left }
+.fr { float: right }
+.divbg { background: url("//cdn.kuaidi100.com/images/frame/app/woodbgb.png") repeat-y; width: 800px; padding: 20px 0px; position: relative; margin: auto; }
+.divbg-small { background: url("//cdn.kuaidi100.com/images/frame/app/woodbgb.png") repeat-y; width: 540px; padding: 20px 0px; position: relative; margin: auto; }
+.divcontentbg { background: url("//cdn.kuaidi100.com/images/frame/app/newcontentbg.gif") no-repeat; width: 534px; height: 340px; margin: 0 auto; position: relative; z-index: 9999 }
+.searchborder { position: absolute; top: 0px; width: 444px }
+.searchborder-new { }
+.searchborder-code { position: absolute; top: 0px; width: 444px; z-index: 9999 }
+.searchborder-new-code { z-index: 9999 }
+.divsearch { width: 410px; height: 40px; float: left; overflow: hidden }
+.divsearch-new { height: 40px }
+.divsearch-code, .divsearch-new-code { height: 75px; float: left }
+.kd-select a { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat; width: 121px; height: 31px; float: left; margin: 5px 5px 0px 5px; display: inline-block; cursor: pointer }
+.kd-select a:hover { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat 0px -157px; width: 121px; height: 31px; float: left; margin: 5px 5px 0px 5px; display: inline-block; cursor: pointer; text-decoration: none }
+.input { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat 0px -36px; width: 161px; height: 31px; border: none; float: left; margin: 5px 5px 0px 0px; padding: 0 0 0 2px; display: inline; line-height: 31px }
+.input3 { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat 0px -216px; border: none; width: 235px; height: 31px; float: left; margin: 5px 5px 0px 0px; padding: 0 0 0 2px; display: inline; line-height: 31px }
+.input4 { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat 0px -216px; border: none; width: 235px; height: 31px; float: left; margin: 0px 5px 0px 0px; padding: 0 0 0 2px; display: inline; line-height: 31px }
+a.searchbutton { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat 0px -72px; width: 108px; height: 34px; float: left; line-height: 34px; font-size: 14px; font-weight: bold; color: #FFFFFF; text-align: center; margin: 3px 0 0 0; display: inline }
+a.searchbutton:hover { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat -113px -72px; width: 108px; height: 34px; float: left; line-height: 34px; font-size: 14px; font-weight: bold; color: #FFFFFF; text-align: center; margin: 3px 0 0 0; display: inline; text-decoration: none }
+.divlist { background: #FFFFFF; width: 508px; float: left; overflow: hidden; border-left: #dbdbdb 1px solid; border-right: #dbdbdb 1px solid; height: 237px }
+.divlist-new { background: #FFFFFF; overflow: hidden; height: 237px }
+.normal { padding: 0 0 0 5px }
+.normal span.stock { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat 0px -193px; width: 33px; height: 18px; line-height: 18px; font-weight: bold; display: block; color: #FFFFFF; text-align: center; float: left }
+.normal span.link-bluebg-normal { color: #CCCCCC; float: left; padding: 0 0 0 5px }
+.normal span.link-bluebg-normal a { margin: 0px 8px; padding: 1px 0px; display: inline-block; width: 40px; color: #0033CC }
+.public { padding: 5px 0px 0px 5px; float: left; width: 506px }
+.public-new { padding: 5px 0px 0px 4px; float: left; width: 506px }
+.divlist ul, .divlist-new ul { width: 253px; float: left; font-size: 12px }
+.divlist ul li, .divlist-new ul li { width: 100%; list-style: none; line-height: 25px; float: left }
+.divlist ul li b.number, .divlist-new ul li b.number { background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") no-repeat -38px -193px; width: 33px; height: 18px; line-height: 18px; font-weight: bold; display: block; color: #0a8ece; text-align: center; float: left }
+.divlist ul li b.nonumber, .divlist-new ul li b.nonumber { width: 33px; height: 18px; line-height: 18px; font-weight: bold; display: block; float: left }
+.divlist ul li span.link-bluebg, .divlist-new ul li span.link-bluebg { background: #edf7ff; float: left; width: 220px }
+.divlist ul li span.link-bluebg-normal, .divlist-new ul li span.link-bluebg-normal { background: #edf7ff; float: left; width: 220px }
+.divlist ul li span.link-nobg, .divlist-new ul li span.link-nobg { background: #FFFFFF; float: left; width: 220px }
+.divlist ul li span a, .divlist-new ul li span a { color: #0033cc; float: left; padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 5px; margin-right: 6px; margin-left: 2px }
+.divlist ul li span a.a1, .divlist-new ul li span a.a1 { display: block }
+.divlist ul li span a.a2, .divlist-new ul li span a.a2 { display: block }
+.divlist ul li span a.a3, .divlist-new ul li span a.a3 { display: block }
+.divlist ul li span a.a4, .divlist-new ul li span a.a4 { display: block }
+.divlist ul li span a.a5, .divlist-new ul li span a.a5 { display: block }
+.coffeebg { background: url("//cdn.kuaidi100.com/images/frame/app/coffeebg.png") no-repeat; width: 168px; height: 232px; position: absolute; bottom: 20px; right: 0px; z-index: 1 }
+.code-list { float: left; padding: 2px 0px 5px 10px; width: 500px }
+.code-list li { float: left; line-height: 31px }
+.code-list li.co1 { padding: 0px 3px }
+.code-list li.co2 { padding: 0px 5px }
+.code-list li.co3 { padding: 0px 25px 0px 0px }
+.input2 { background: url("//cdn.kuaidi100.com/images/frame/app/input2bg.gif") no-repeat; width: 85px; height: 31px; border: none; margin: 0 0 0 5px; line-height: 31px; vertical-align: middle }
+.code-list li a img { margin: 0px 5px; width: 60px; height: 31px }
+#liimagediv { background: url("//cdn.kuaidi100.com/images/ajax-loader.gif") no-repeat center center }
+.kd-bottom { width: 514px; float: left; position: absolute; bottom: 10px; left: 10px; font-size: 12px; color: #666666 }
+.kd-bottom img { vertical-align: middle }
+.kd-bottom a { color: #999999 }
+.kd-bottom a:hover { color: #0AAEEE }
+.contenttopbg { background: #FFFFFF url("//cdn.kuaidi100.com/images/frame/app/content_topbg.gif") no-repeat right top; border-left: #CCCCCC 1px solid; width: 509px; height: 3px; overflow: hidden }
+.title01 { width: 416px; padding: 10px 15px 0px 10px; float: left; overflow: hidden }
+.title02 { position: absolute; right: 0px!important; right: 1px }
+.title01 .title-l, .title02 .title-l { background: url("//cdn.kuaidi100.com/images/frame/app/bg_kuang.gif") no-repeat; float: left; width: 5px; height: 5px; overflow: hidden }
+.title01 .title-m { background: url("//cdn.kuaidi100.com/images/frame/app/bg_kuang.gif") repeat-x 0px -10px; float: left; width: 406px; height: 5px; overflow: hidden }
+.title02 .title-m { background: url("//cdn.kuaidi100.com/images/frame/app/bg_kuang.gif") repeat-x 0px -10px; float: left; width: 86px; height: 5px; overflow: hidden }
+.title01 .title-r, .title02 .title-r { background: url("//cdn.kuaidi100.com/images/frame/app/bg_kuang.gif") no-repeat -5px 0px; float: left; width: 5px; height: 5px; overflow: hidden }
+.cont01 { border-left: 1px solid #DADADA; border-right: 1px solid #DADADA; background: #f4f4f4; width: 414px; margin: 0 10px; float: left; display: inline }
+.bottom01 { width: 416px; padding: 0px 10px; float: left }
+.bottom01 .bottom-l { background: url("//cdn.kuaidi100.com/images/frame/app/bg_kuang.gif") repeat-x 0px -5px; float: left; width: 5px; height: 5px; overflow: hidden }
+.bottom01 .bottom-m { background: url("//cdn.kuaidi100.com/images/frame/app/bg_kuang.gif") repeat-x 0px -15px; float: left; width: 406px; height: 5px; overflow: hidden }
+.bottom01 .bottom-r { background: url("//cdn.kuaidi100.com/images/frame/app/bg_kuang.gif") no-repeat -5px -5px; float: left; width: 5px; height: 5px; overflow: hidden }
+.border { padding: 30px 30px 0px 30px }
+.mt { margin: 10px 0 0 0 }
+.divmain { width: 540px; margin: 0 auto }
+.divtop { background: url("//cdn.kuaidi100.com/images/frame/app/netui-top.png") no-repeat; width: 540px; height: 340px }
+.divbottom { background: url("//cdn.kuaidi100.com/images/frame/app/netui-bottom.png") no-repeat; width: 540px; height: 66px }
+select { width: 138px }
+.q-input { width: 175px }
+.querybutton { width: 120px }
+.selectbg { background: url("//cdn.kuaidi100.com/images/frame/app/selectbg.gif") no-repeat; width: 138px; height: 31px; line-height: 31px; position: relative }
+.input1 { background: url("//cdn.kuaidi100.com/images/frame/app/input1bg.gif") no-repeat; width: 175px; height: 29px; border: none; line-height: 29px }
+.input2 { background: url("//cdn.kuaidi100.com/images/frame/app/input2bg.gif") no-repeat; width: 85px; height: 31px; border: none; margin: 0 0 0 5px; padding: 0 0 0 2px; line-height: 31px; vertical-align: middle }
+.querybutton { background: url("//cdn.kuaidi100.com/images/frame/app/query.gif") no-repeat; width: 120px; height: 36px; display: block }
+.table1 td img { vertical-align: middle; margin: 0px 3px 0px 0px }
+.bluebg { background: #64AADB; border: #75C2EF 1px solid; height: 28px; line-height: 28px; color: #FFFFFF; font-weight: bold; text-indent: 15px }
+.nobg { border: 1px solid #DDDDDD; font-size: 12px; line-height: 22px; padding: 3px 5px; vertical-align: top }
+.fontorange { color: #FF6600 }
+.city_wrapper { line-height: 28px; text-align: left }
+.city_wrapper th { color: #666666; font-weight: normal; background: #E7F1FD }
+.city_wrapper td.td1 { border: #9DB0BC 1px solid }
+.city-tag { background: #C8E3FC; border-bottom: #9DB0BC 1px solid }
+.city-tag { color: #1670EB }
+.city-tag .cy { color: #000; margin: 0 0 0 2px }
+.city-tag a { padding: 0px 2px; color: #1670EB; text-decoration: none }
+.city-tag a:hover { text-decoration: underline }
+.list { margin: 0px; width: 98% }
+.list li { list-style: none; float: left; padding: 0px 3px }
+.kd-result, .kd-result-new { padding: 0 0 0 10px; float: left; width: 514px }
+.qcSaveNum { float: right; color: #008cd6; margin-bottom: 10px; margin-right: 5px; }
+#showtablecontext .b-btn { float: right; position: relative }
+#showtablecontext b { font-size: 0; height: 0; line-height: 0; overflow: hidden; position: absolute; width: 0 }
+#showtablecontext .b-up { border-color: transparent transparent #C9C4CA; border-style: dashed dashed solid; border-width: 4px; border-width: 5px \9; right: 5px; right: 4px \9; top: 4px; top: 1px \9 }
+#showtablecontext .b-down { border-color: #C9C4CA transparent transparent; border-style: solid dashed dashed; border-width: 4px; right: 5px; top: 17px; top: 15px \9 }
+#showtablecontext .b-up-active { border-color: transparent transparent #FFFFFF; }
+#showtablecontext .b-down-active { border-color: #FFFFFF transparent transparent; }
+.kd-result1 { padding: 35px 0px 0px 10px; float: left; width: 514px; height: 170px }
+.kd-result1-new { padding: 45px 0px 0px 10px; float: left; width: 514px }
+.kd-result1-newa { padding: 35px 0px 0px 10px; float: left; width: 514px }
+.wait { display: none; width: 417px; padding: 20px 15px; ; text-align: center }
+.wait1 { display: none; width: 417px; padding: 55px 15px; ; text-align: center }
+.page { padding: 10px 10px 0px 0px; float: right; display: none }
+.round_gray { padding: 10px; clear: both; width: 417px }
+.round_gray1 { padding: 45px 10px; clear: both; width: 417px }
+.round_gray_new { padding: 0px 0px 0px 10px; clear: both; width: 514px }
+.example { padding: 0 0 10px 20px; }
+.example a { color: #09C }
+.nothelp { padding: 5px 10px; width: 487px; float: left; background-color: #f7faff; border: 1px double #daebff; left: 10px; }
+.nothelp li { width: 450px; float: left; padding-left: 30px; margin: 5px 0px; display: inline; line-height: 25px; height: 25px; overflow: hidden; color: #666; }
+.nothelp .nh-01 { background: url("//cdn.kuaidi100.com/images/frame/sogou/synastry_sogou.png") no-repeat 0 -234px; }
+.nothelp .nh-04 { background: url("//cdn.kuaidi100.com/images/frame/sogou/synastry_sogou.png") no-repeat 0 -282px; }
+.nothelp .nh-03 { background: url("//cdn.kuaidi100.com/images/frame/sogou/synastry_sogou.png") no-repeat 0 -334px; }
+.nothelp a { color: #0099CC; }
+.nothelp a:hover { text-decoration: underline; }
+.divlist-bottomborder { clear: both; width: 514px }
+.xtop, .xbottom { display: block; background: transparent; font-size: 1px }
+.xb1a, .xb2a, .xb3a, .xb4a, .xb1b, .xb2b, .xb3b, .xb4b { display: block; overflow: hidden }
+.xb1a, .xb2a, .xb3a, .xb1b, .xb2b, .xb3b { height: 1px }
+.xb2a, .xb3a, .xb4a { background: #FFFAE2; border-left: 1px solid #F5E190; border-right: 1px solid #F5E190 }
+.xb2b, .xb3b, .xb4b { background: #FFFFFF; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC }
+.xb1a { margin: 0 5px; background: #F5E190 }
+.xb1b { margin: 0 5px; background: #CCCCCC }
+.xb2a, .xb2b { margin: 0 3px; border-width: 0 2px }
+.xb3a, .xb3b { margin: 0 2px }
+.xb4a, .xb4b { height: 2px; margin: 0px 1px }
+.xboxcontent_a { display: block; background: #FFFAE2; border: 0px solid #F5E190; border-width: 0px 1px; padding: 8px 15px }
+.xboxcontent_a p { margin: 0px; padding: 0px; line-height: 30px; font-size: 14px; font-weight: bold; color: #F00 }
+.xboxcontent_a dt { line-height: 30px }
+.xboxcontent_a dd { line-height: 20px; font-family: "宋体"; }
+.xboxcontent_a a { color: #0A8ECE; font-weight: bold }
+.c_round_gray { padding: 10px; padding: 10px 10px 5px 10px\9; }
+.xtop, .xbottom { display: block; background: transparent; font-size: 1px }
+.xb1b, .xb2b, .xb3b, .xb4b { display: block; overflow: hidden }
+.xb1b, .xb2b, .xb3b { height: 1px }
+.xb2b, .xb3b, .xb4b { background: #FFFFFF; border-left: 1px solid #C0C0C0; border-right: 1px solid #C0C0C0 }
+.xb1b { margin: 0 5px; background: #C0C0C0 }
+.xb2b { margin: 0 3px; border-width: 0 2px }
+.xb3b { margin: 0 2px }
+.xb4b { height: 2px; margin: 0px 1px }
+.xboxcontent_b { display: block; background: #FFFFFF; border: 0px solid #C0C0C0; border-width: 0px 1px; padding: 0 0 0 2px }
+.divpaging { font-size: 12px; line-height: 16px; text-align: center; vertical-align: middle; padding: 5px 10px 0px 10px; }
+.divpaging a { float: left }
+.divpaging span { float: left }
+.divpaging .divpaging-a-number1 { border: #cee3f2 1px solid; padding: 1px 6px 1px 6px; color: #2477b3; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-a-number1:hover { border: #fd6d01 1px solid; padding: 1px 6px 1px 6px; color: #fd6d01; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-a-number2 { border: none; padding: 2px 7px 2px 7px; color: #e63922; margin: 2px 1px 2px 2px; font-weight: bold }
+.divpaging .divpaging-a-number3 { border: #2477b3 1px solid; background: #2477b3; padding: 1px 6px 1px 6px; color: #ffffff; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-a-number3:hover { border: #fd6d01 1px solid; background: #ffffff; padding: 1px 6px 1px 6px; color: #fd6d01; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-a-button { border: #cee3f2 1px solid; padding: 1px 6px 1px 6px; color: #2477b3; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-a-button:hover { border: #fd6d01 1px solid; padding: 1px 6px 1px 6px; color: #fd6d01; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-span1 { border: #c0c7cc 1px solid; padding: 1px 6px 1px 6px; color: #c0c7cc; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-span2 { border: none; padding: 2px 6px 2px 6px; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-span3 { border: none; padding: 2px 0px 2px 10px; color: #c0c7cc; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-span4 { border: none; padding: 2px 6px 2px 0px; color: #c0c7cc; margin: 2px 1px 2px 2px }
+.divpaging .divpaging-input1 { float: left; border: #cee3f2 1px solid; width: 32px; height: 18px; margin: 2px; text-align: center; color: #2477b3; font-size: 12px }
+.return { position: absolute; left: 10px; bottom: 40px; color: #666666 }
+.newTag { position: absolute; top: 0px; right: -10px; display: block; width: 11px; height: 9px; background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") -255px -14px no-repeat }
+.lastTag { margin-left: 5px; display: inline-block; width: 22px; height: 9px; background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") -251px -49px no-repeat; vertical-align: top }
+.round_gray_new .q-price { float: left; width: 53px; height: 20px; padding-top: 33px; margin: 5px 5px 0px 5px; text-align: center; color: #09C; background: url("//cdn.kuaidi100.com/images/frame/baidu/baidu.gif") no-repeat -562px -164px; border: 1px solid #ffffff; }
+.round_gray_new .q-price:hover { float: left; width: 53px; height: 20px; padding-top: 33px; margin: 5px 5px 0px 5px; text-align: center; background: url("//cdn.kuaidi100.com/images/frame/baidu/baidu.gif") no-repeat -562px -164px; text-decoration: none; border: 1px solid #daebff; }
+.round_gray_new .q-network { float: left; width: 53px; height: 20px; padding-top: 33px; margin: 5px 5px 0px 5px; text-align: center; color: #09C; background: url("//cdn.kuaidi100.com/images/frame/baidu/baidu.gif") no-repeat -562px -247px; border: 1px solid #ffffff; }
+.round_gray_new .q-network:hover { float: left; width: 53px; height: 20px; padding-top: 33px; margin: 5px 5px 0px 5px; text-align: center; background: url("//cdn.kuaidi100.com/images/frame/baidu/baidu.gif") no-repeat -562px -247px; text-decoration: none; border: 1px solid #daebff; }
+.round_gray_new .q-order { float: left; width: 53px; height: 20px; padding-top: 33px; margin: 5px 5px 0px 5px; text-align: center; color: #09C; background: url("//cdn.kuaidi100.com/images/frame/baidu/baidu.gif") no-repeat -562px -331px; border: 1px solid #ffffff; }
+.round_gray_new .q-order:hover { float: left; width: 53px; height: 20px; padding-top: 33px; margin: 5px 5px 0px 5px; text-align: center; background: url("//cdn.kuaidi100.com/images/frame/baidu/baidu.gif") no-repeat -562px -331px; text-decoration: none; border: 1px solid #daebff; }
+#adlink { padding-left: 25px; background: url("//cdn.kuaidi100.com/images/frame/app/synastry_pics.gif") 0 -400px no-repeat; }
+/*以下为 改动后新增的css   20121010 */
+
+
+.experiment { width: 160px; padding-top: 8px; height: 20px; float: right; text-align: left; margin-right: 14px; }
+.qcSaveNum { display: block; color: #008cd6; float: left; }
+.decent { float: left; width: 16px; height: 16px; position: relative; }
+.indecent { position: absolute; width: 160px; height: 27px; z-index: 10; top: 18px; left: -140px; display: none; }
+.standing { display: block; float: left; width: 16px; height: 16px; font-size: 12px; line-height: 16px; vertical-align: middle; text-align: center; color: #FFF; background-color: #FEA03E; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; text-decoration: none; }
+.standing:hover { text-decoration: none; }
+.pad_sjx { width: 16px; padding-left: 144px; float: left; }
+.sanjiao { float: left; height: 0px; width: 0px; border-width: 0px 5px 5px 5px; border-style: dashed dashed solid dashed; border-color: transparent transparent #64AADB transparent; _font-size: 0;   /* ie6 height fix */ _line-height: 0; /* ie6 height fix */ }
+.accumulate { background-color: #64AADB; width: 160px; height: 22px; float: left; color: #fff; font-size: 12px; line-height: 22px; vertical-align: middle; text-align: center; }
+table tr td { line-height: 20px\9; }
+
+/*20140709新增*/
+.desk-input{border:1px solid #7f9db9;background:none;width:258px;height:29px}

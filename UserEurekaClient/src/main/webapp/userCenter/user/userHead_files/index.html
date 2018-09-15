@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="一站式的快递查询平台，方便快捷。支持国内外近百家快递、物流公司。">
+<meta name="keywords" content="快递查询,物流查询,快递单号查询">
+<title>快递100 - 提供一站式快递查询服务</title>
+<link rel="stylesheet" href="./app.css">
+</head>    
+<body onload="clear();" onunload="setCookie(&quot;inputpostid&quot;,&quot;&quot;)" marginwidth="0" marginheight="0">
+<div id="loadAfter" style="display: block;">
+  <input type="hidden" name="posttype" id="posttype" value="">
+  <input type="hidden" name="appname" id="appname" value="app">
+  <div class="divbg-small" id="divbgs">
+    <div class="divcontentbg">
+      <div class="c_round_gray"> <b class="xtop"><b class="xb1b"></b><b class="xb2b"></b><b class="xb3b"></b><b class="xb4b"></b></b>
+        <div class="xboxcontent_b">
+          <div class="searchborder-new" id="searchborder" style="width:506px;">
+            <div class="divsearch-new" id="divsearch">
+              <div class="kd-select" onclick="showdiv()"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="return false;">
+                <input name="companyname" id="companyname" type="text" style="border:none;margin:3px;width:90px;height:22px;line-height:22px;background:#FFFFFF;" disabled="disabled" value="请选择快递公司">
+                </a></div>
+              <input type="text" class="input3" name="postid" id="postid" value="" onfocus="clearfield1(this)" onblur="clearfield2(this)" onkeydown="clearfield3(this)" style="font-size: 12px;">
+              <a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" class="searchbutton" onclick="getResult();return false;" onfocus="this.blur();" id="lika">查询</a>
+              <ul class="code-list" id="hasvalide" style="display:none;">
+                <li>请您输入验证码：</li>
+                <li class="co2">
+                  <input name="valicode" id="valicode" type="text" class="input2" maxlength="10">
+                </li>
+                <li class="co1" id="liimagediv" style="display:block"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="return false;"><img src="./clear.gif" name="valiimages" id="valiimages" alt="点击获取新验证码" onclick="refreshcode()"></a></li>
+                <li><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" class="f12" onclick="refreshcode();return false;">看不清，换一张</a></li>
+              </ul>
+              <ul class="code-list" id="teldiv" style="display:none;">
+                <li>请您输入电话号码：</li>
+                <li class="co2" style="padding-left:13px;">
+                  <input name="valicodetel" id="valicodetel" type="text" class="input4" maxlength="18">
+                </li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="divlist-new" id="choosecompany" style="display: block;">
+            <div class="normal"> <span class="stock">常用</span> <span class="link-bluebg-normal">
+              <p><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;ems&#39;);return false;">EMS</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;shentong&#39;);return false;">申通</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;yuantong&#39;);return false;">圆通</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;zhongtong&#39;);return false;">中通</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;huitongkuaidi&#39;);return false;">百世</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;ems&#39;);return false;">E邮宝</a></strong></p>
+              <p><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;ups&#39;);return false;">UPS</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;shunfeng&#39;);return false;">顺丰</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;yunda&#39;);return false;">韵达</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;tiantian&#39;);return false;">天天</a></strong><strong><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;zhaijisong&#39;);return false;">宅急送</a></strong></p>
+              </span> </div>
+            <div class="clear"></div>
+            <div class="public-new">
+              <ul>
+                <li> <b class="number">A</b> <span class="link-bluebg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;aae&#39;);return false;" class="a2">AAE</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;anxindakuaixi&#39;);return false;" class="a3">安信达</a></span> </li>
+                <li> <b class="number">B</b> <span class="link-nobg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;bht&#39;);return false;" class="a2">BHT</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;baifudongfang&#39;);return false;" class="a4">百福东方</a></span> </li>
+                <li> <b class="number">C</b> <span class="link-bluebg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;coe&#39;);return false;" class="a2">COE</a></span> </li>
+                <li> <b class="number">D</b> <span class="link-nobg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;dhl&#39;);return false;" class="a2">DHL</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;datianwuliu&#39;);return false;" class="a2">大田</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;debangwuliu&#39;);return false;" class="a2">德邦</a></span> </li>
+                <li> <b class="number">F</b> <span class="link-bluebg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;fedex&#39;);return false;" class="a2">FedEx</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;feikangda&#39;);return false;" class="a3">飞康达</a></span> </li>
+                <li> <b class="number">G</b> <span class="link-nobg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;guangdongyouzhengwuliu&#39;);return false;" class="a4">广东邮政</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;ganzhongnengda&#39;);return false;" class="a4">能达速递</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;youzhengguonei&#39;);return false;" class="a3">挂号信</a></span> </li>
+                <li> <b class="number">J</b> <span class="link-bluebg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;jinguangsudikuaijian&#39;);return false;" class="a2">京广</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;jiajiwuliu&#39;);return false;" class="a2">佳吉</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;jiayiwuliu&#39;);return false;" class="a2">佳怡</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;jixianda&#39;);return false;" class="a3">急先达</a></span> </li>
+                <li> <b class="number">L</b> <span class="link-nobg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;longbanwuliu&#39;);return false;" class="a2">龙邦</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;lianbangkuaidi&#39;);return false;" class="a4">联邦快递</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;lianhaowuliu&#39;);return false;" class="a3">联昊通</a></span> </li>
+              </ul>
+              <ul>
+                <li> <b class="number">Q</b> <span class="link-bluebg"> <a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;quanyikuaidi&#39;);return false;" class="a2">全一</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;quanchenkuaidi&#39;);return false;" class="a2">全晨</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;quanritongkuaidi&#39;);return false;" class="a3">全日通</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;quanfengkuaidi&#39;);return false;" class="a3">全峰快递</a></span> </li>
+                <li> <b class="number">S</b> <span class="link-nobg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;suer&#39;);return false;" class="a2">速尔</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;shenghuiwuliu&#39;);return false;" class="a4">盛辉</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;shentong&#39;);return false;" class="a5">申通E物流</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;santaisudi&#39;);return false;" class="a4">三态</a></span> </li>
+                <li> <b class="number">T</b> <span class="link-bluebg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;tnt&#39;);return false;" class="a2">TNT</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;tiandihuayu&#39;);return false;" class="a4">天地华宇</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;ems&#39;);return false;" class="a4">特快专递</a></span> </li>
+                <li> <b class="number">X</b> <span class="link-nobg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;xinbangwuliu&#39;);return false;" class="a2">新邦</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;xinfengwuliu&#39;);return false;" class="a2">信丰</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;xinhongyukuaidi&#39;);return false;" class="a3">鑫飞鸿</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;xingchengjibian&#39;);return false;" class="a4">星晨急便</a></span> </li>
+                <li> <b class="number">Y</b> <span class="link-bluebg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;youshuwuliu&#39;);return false;" class="a2">优速</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;yuntongkuaidi&#39;);return false;" class="a2">运通</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;yuanweifeng&#39;);return false;" class="a3">源伟丰</a></span><b class="nonumber"></b> <span class="link-nobg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;yuanchengwuliu&#39;);return false;" class="a2">远成</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;yuefengwuliu&#39;);return false;" class="a2">越丰</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;yafengsudi&#39;);return false;" class="a2">亚风</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;yuanzhijiecheng&#39;);return false;" class="a4">元智捷诚</a></span><b class="nonumber"></b><span class="link-bluebg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;youzhengguonei&#39;);return false;" class="a1">邮政国内包裹</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;ems&#39;);return false;" class="a4">邮政快递</a></span></li>
+                <li> <b class="number">Z</b> <span class="link-nobg"><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;zhongtiewuliu&#39;);return false;" class="a5">中铁快运</a><a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="traninput(&#39;zhongyouwuliu&#39;);return false;" class="a5">中邮物流</a></span> </li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <b class="xbottom"><b class="xb4b"></b><b class="xb3b"></b><b class="xb2b"></b><b class="xb1b"></b></b> </div>
+      <div style="" class="silent">
+        <div class="example" id="example" style="display:none">例如，您可以输入：<a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="inputExample();return false;" id="exampleNumber"></a></div>
+        <div id="waitdiv" class="wait"><img src="./ajax-loader.gif" width="16" height="16" alt="快递查询" align="absmiddle"> <font id="waitinfo">正在查询......</font></div>
+        <div class="round_gray_new" id="errordiv" style="display:none;clear:both;"> <b class="xtop"><b class="xb1a"></b><b class="xb2a"></b><b class="xb3a"></b><b class="xb4a"></b></b>
+          <div class="xboxcontent_a">
+            <p style="line-height:25px;margin:0px;padding:0px;"><font id="errorMessage">您输入的验证码错误，请重新输入！</font></p>
+          </div>
+          <b class="xbottom"><b class="xb4a"></b><b class="xb3a"></b><b class="xb2a"></b><b class="xb1a"></b></b> </div>
+        <div class="round_gray_new" id="notfind" style="display:none;"> <b class="xtop"><b class="xb1a"></b><b class="xb2a"></b><b class="xb3a"></b><b class="xb4a"></b></b>
+          <div class="xboxcontent_a" id="round_gray1">
+            <p><span class="button"></span>此单号无记录，请核对快递公司名称和运单号码是否正确！</p>
+            <dl class="list">
+              <dt><strong>操作建议：</strong></dt>
+              <dd>·到快递公司<a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" id="comurl" target="_blank">官网查询试试&gt;&gt;</a></dd>
+              <dd>·还没解决问题？<a href="https://www.kuaidi100.com/frame/app/index.html?canvas_pos=600#" onclick="feedback();return false;">我要报错&gt;&gt;</a></dd>
+              <dd id="sendsmsinfo" style="display:none">刚发出的快递如查询不到，可自动短信提醒<a href="javascript:gotomessage();" class="dx-button"></a></dd>
+            </dl>
+          </div>
+          <b class="xbottom"><b class="xb4a"></b><b class="xb3a"></b><b class="xb2a"></b><b class="xb1a"></b></b> </div>
+        <div class="kd-result-new" id="showcontext" style="display:none;">
+          <table width="510" border="0" cellspacing="0" cellpadding="0" id="showtablecontext">
+            <tbody><tr>
+              <td width="27%" class="bluebg" onclick="sortToggle()" style="cursor:pointer"><span class="b-btn"><b class="b-up b-up-active" id="b-up"></b><b class="b-down" id="b-down"></b></span>时间</td>
+              <td width="73%" class="bluebg">地点和跟踪进度</td>
+            </tr>
+          </tbody></table>
+        </div>
+        <div class="divpaging fl" id="fenye"></div>
+		<div class="div_clb"></div>
+        <div class="experiment" id="experiment" style="display:none;"> <a href="https://buyer.kuaidi100.com/?app=app" onclick="qcSaveNum(this)" onfocus="this.blur();" target="_blank" class="qcSaveNum">保存单号，再查免输入&gt;&gt;</a>
+          <div class="decent">
+            <div class="indecent" id="indecent">
+              <div class="pad_sjx">
+                <div class="sanjiao"></div>
+              </div>
+              <div class="accumulate">您累计查询了<span class="" id="exposure"></span>个快递单</div>
+              <!-- accumulate--> 
+            </div>
+            <!--indecent --> 
+            <a id="matureNum" class="standing" onmouseover="indecentShow();" onmouseout="indecentHide();" onclick="qcSaveNum(this)" href="https://buyer.kuaidi100.com/?app=sogouApp" target="_blank">0</a> </div>
+          <!--decent -->
+          <div class="clear"></div>
+        </div>
+        <!--experiment --> 
+      </div>
+      <!--silent--> 
+      <!-- <span id="returnback" style="display:none"><a class="return" href="index.html" id="return">&lt;&lt;返回重查</a></span> --> 
+      <div class="kd-bottom"><span class="fl"><a href="https://www.kuaidi100.com/mobile/android.shtml" target="_blank"><img src="./kd100logo.gif" alt="快递查询接口由快递100提供" width="94" height="21"></a></span><span class="fr" style="padding-top:3px" id="adlink"><a href="https://www.kuaidi100.com/mobile/android.shtml?app" onfocus="this.blur();" target="_blank">手机随时随地查物流&gt;</a></span></div>
+    </div>
+  </div>
+</div>
+<div id="loading" class="loading" style="display: none;">
+  <div class="loading-1"><img src="./logo_230x100.gif"></div>
+  <div class="loading-2"><img src="./loading.gif"></div>
+</div>
+<script src="./hm.js"></script><script src="./company.js"></script> 
+<script src="./ad.js"></script> 
+<script src="./ajax30.js"></script> 
+<script>
+  function  indecentShow(){
+     $("indecent").style.display="block";
+	  $("exposure").innerHTML=$("matureNum").innerHTML;  //将数据填充在span中
+  }
+
+  function  indecentHide(){
+     $("indecent").style.display="none";
+  }
+</script> 
+<script>
+var handle = setInterval("delayTime()", 1000);
+function delayTime(){
+	clearInterval(handle);
+	document.getElementById("loading").style.display="none";
+	document.getElementById("loadAfter").style.display="block";
+}
+/*保存单号*/
+var countSource="app";
+var gSaveHref="https://buyer.kuaidi100.com/?app="+countSource;
+function qcSaveNum(obj){
+	obj.href=gSaveHref+"&com="+type+"&nu="+postid+"&ischeck="+gIsCheck;
+}
+
+var canvas_pos=GetQueryString("canvas_pos");
+if(canvas_pos==null||canvas_pos==""){
+	document.getElementById("divbgs").className="divbg";
+	// document.getElementById("return").href="index.html";
+}else{
+	if(canvas_pos!=null){
+		document.getElementById("divbgs").className="divbg-small";
+	}
+	// document.getElementById("return").href="index.html?canvas_pos=1";
+}
+</script> 
+<script src="./count.js"></script>
+
+</body></html>
